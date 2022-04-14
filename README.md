@@ -1,4 +1,6 @@
-# Fantasy Content Generator
+# Aurinn Train Content Generator
+
+A custom forked version of Fantasy Content Generator being used specificly for Aurinn Train, a D&D 5e custom campaign format. Below is the (mostly unchanged) readme for the original project:
 
 [![npm](https://img.shields.io/npm/v/fantasy-content-generator.svg?style=flat-square)](https://www.npmjs.com/package/fantasy-content-generator)
 
@@ -21,10 +23,10 @@ _Using this library in a project? [Please let me know!](https://twitter.com/tmcg
 
 ### Node/Webpack
 
-`npm install --save fantasy-content-generator`
+`npm install <github-url>`
 
-```js
-import FCG from "fantasy-content-generator";
+```ts
+import * as ATCG from "aurinn-train-content-generator";
 ```
 
 ### Browser/Direct `<script>` Include
