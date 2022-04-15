@@ -52,29 +52,6 @@ const generateName = (race: IRace, gender: IGender): string => {
         humanLast: Utils.pick(Data.human.last),
         tieflingFirst: Utils.pick(Data.tiefling[gender]),
       });
-    case "aelfir":
-      const [adjective, adjective2] = Utils.pickMany(Data.aelfir.adjective, 2);
-      const [thing, thing2] = Utils.pickMany(Data.aelfir.thing, 2);
-      const [passive_emotion, passive_emotion2] = Utils.pickMany(
-        Data.aelfir.passive_emotion,
-        2
-      );
-
-      return Utils.parseTemplate(template, {
-        verb_ing: Utils.parseTemplate(Utils.pick(Data.aelfir.verb_ing)),
-        verb_present: Utils.parseTemplate(Utils.pick(Data.aelfir.verb_present)),
-        adverb: Utils.parseTemplate(Utils.pick(Data.aelfir.adverb)),
-        adjective: Utils.parseTemplate(adjective),
-        adjective2: Utils.parseTemplate(adjective2),
-        preposition: Utils.parseTemplate(Utils.pick(Data.aelfir.preposition)),
-        preposition_spatial: Utils.parseTemplate(
-          Utils.pick(Data.aelfir.preposition_spatial)
-        ),
-        passive_emotion: Utils.parseTemplate(passive_emotion),
-        passive_emotion2: Utils.parseTemplate(passive_emotion2),
-        thing: Utils.parseTemplate(thing),
-        thing2: Utils.parseTemplate(thing2),
-      });
   }
 };
 
