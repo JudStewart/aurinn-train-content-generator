@@ -5,6 +5,7 @@ import NPCs from "./npcs";
 import Settlements from "./settlements";
 import Establishments from "./establishments";
 import Storyhooks from "./storyhooks";
+import Ben from "./ben";
 
 export {
   Loots,
@@ -13,5 +14,6 @@ export {
   NPCs,
   Settlements,
   Storyhooks,
-  Establishments
+  Establishments,
+  Ben
 };

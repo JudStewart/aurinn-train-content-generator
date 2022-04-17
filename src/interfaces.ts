@@ -41,6 +41,21 @@ export type IRace =
   | "verdan"
   | "locathah"
   | "grung";
+  
+export type IClass = 
+  | "barbarian"
+  | "bard"
+  | "cleric"
+  | "druid"
+  | "fighter"
+  | "monk"
+  | "paladin"
+  | "ranger"
+  | "rogue"
+  | "sorcerer"
+  | "warlock"
+  | "wizard"
+  | "artificer"
 
 export type IEstablishmentType =
   | "general_store"
@@ -62,6 +77,7 @@ export type ISeed = string | number;
 export interface INameGenerateProps {
   race?: IRace;
   gender?: IGender;
+  cls?: IClass;
   seed?: ISeed;
 }
 
