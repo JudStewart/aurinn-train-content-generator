@@ -1,55 +1,26 @@
 {
-  "name": "aurinn-train-content-generator",
-  "version": "1.0",
-  "homepage": "https://github.com/JudStewart/aurinn-train-content-generator",
-  "description": "A custom forked version of Fantasy Content Generator being used specificly for Aurinn Train, a D&D 5e custom campaign format",
-  "keywords": [
-    "dungeons and dragons",
-    "dnd",
-    "dnd5e",
-    "rpg",
-    "ttrpg",
-    "table-top-role-playing",
-    "procgen",
-    "procedural generation",
-    "rpg-tool",
-    "dnd-tool"
-  ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "@judstewart/aurinn-train-content-generator",
+  "version": "1.0.0",
+  "description": "A custom fork of the fantasy-name-content-generator specifically for Aurinn Train, a custom D&D campaign format.",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "preversion": "npm test",
-    "version": "npm run build && git add -A",
-    "postversion": "git push && git push --tags",
-    "test": "cross-env ENVIRONMENT=test npx jest",
-    "build": "npm run build:node && npm run build:browser",
-    "build:node": "tsc",
-    "build:browser": "tsc && npx parcel build ./dist/index_browser.js .dist/**/*.json --out-dir ./ -o fantasy_content_generator.js --no-source-maps",
-    "publish:patch": "npm version patch && npm publish",
-    "publish:minor": "npm version minor && npm publish",
-    "publish:major": "npm version major && npm publish"
+    "test": "cross-env ENVIRONMENT=test npx jest"
   },
-  "author": "Tom Gray <tom.c.gray@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/jest": "^24.0.23",
-    "@types/node": "^12.12.14",
-    "cross-env": "^7.0.0",
-    "eslint": "^6.6.0",
-    "jest": "^24.9.0",
-    "lodash": "^4.17.14",
-    "parcel-bundler": "^1.12.4",
-    "release-it": "^12.3.3",
-    "require-globify": "^1.4.1",
-    "terser": "^3.16.1",
-    "ts-jest": "^24.2.0",
-    "typescript": "^3.7.3",
-    "uglify-js": "^3.4.9"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JudStewart/aurinn-train-content-generator.git"
   },
-  "jest": {
-    "testEnvironment": "node"
+  "keywords": [
+    "D&D",
+    "RNG"
+  ],
+  "author": "Jud Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JudStewart/aurinn-train-content-generator/issues"
   },
-  "dependencies": {
-    "seedrandom": "^3.0.5"
-  }
+  "homepage": "https://github.com/JudStewart/aurinn-train-content-generator#readme"
 }
