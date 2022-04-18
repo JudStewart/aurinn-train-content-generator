@@ -1,6 +1,6 @@
 {
   "name": "@judstewart/aurinn-train-content-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A custom fork of the fantasy-name-content-generator specifically for Aurinn Train, a custom D&D campaign format.",
   "main": ".eslintrc.js",
   "directories": {
