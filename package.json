@@ -44,6 +44,12 @@
     "typescript": "^3.7.3",
     "uglify-js": "^3.4.9"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  },
   "bugs": {
     "url": "https://github.com/JudStewart/aurinn-train-content-generator/issues"
   },
