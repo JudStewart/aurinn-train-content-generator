@@ -23,7 +23,7 @@ const generateName = (race: IRace, gender: IGender, cls: IClass, seed?: ISeed): 
             create(Utils.pick(Data[cls]))
         }
         //race
-        if (Data[race] == undefined)
+        if (Data[race].length == 0)
             return create(Names.generate({race: race, gender: gender, seed: seed}).formattedData.name)
         
         return create(Utils.pick(Data[race]))
