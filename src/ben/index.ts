@@ -50,8 +50,8 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
     seed = seed ?? Utils.FantasyContentGeneratorSeed ?? Utils.generateUUID();
     
     return Utils.withSeed(seed, () => {
-        race = race ? race : Utils.pick(Object.keys(Data))
-        gender = gender ? gender : Utils.randomGender()
+        //race = race ? race : Utils.pick(Object.keys(Data))
+        //gender = gender ? gender : Utils.randomGender()
         const name = generateName(race, gender, cls, seed)
         return {
             seed,
@@ -62,8 +62,8 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
             lastName: undefined,
             fromattedData: {
                 name,
-                race: Utils.formatRace(race),
-                gender: Utils.titleCase(gender),
+                race: race ? Utils.formatRace(race) : 'undefined',
+                gender: gender ? Utils.titleCase(gender) : 'undefined',
                 firstName: Utils.titleCase(name),
                 lastName: undefined
             }
