@@ -9,7 +9,7 @@ import {
   IRace,
   INPCDomainObject,
   ISeed
-} from "../interfaces";
+} from "../interfaces/interfaces";
 
 const RelationshipKeyWords = [
   "mother",

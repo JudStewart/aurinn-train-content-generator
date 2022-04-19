@@ -2,7 +2,7 @@ import * as Utils from "../utils";
 import {
   ISettlementGenerateProps,
   ISettlementDomainObject,
-} from "../interfaces";
+} from "../interfaces/interfaces";
 import SettlementData from "./settlements.json";
 import Establishments from "../establishments";
 

@@ -1,5 +1,5 @@
 import * as Utils from "../utils";
-import { IMonsterGenerateProps, IMonsterDomainObject } from "../interfaces";
+import { IMonsterGenerateProps, IMonsterDomainObject } from "../interfaces/interfaces";
 import MonsterData from "./monster.json";
 
 export const generate = (

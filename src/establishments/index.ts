@@ -5,7 +5,7 @@ import {
   INPCDomainObject,
   ISeed,
   IEstablishmentType
-} from "../interfaces";
+} from "../interfaces/interfaces";
 import EstablishmentData from "./establishments.json";
 import GenericData from "../genericData.json";
 import NPCs from "../npcs";

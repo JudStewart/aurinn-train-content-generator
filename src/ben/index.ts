@@ -7,7 +7,7 @@ import {
     IGender,
     IClass,
     INameDomainObject,
-  } from "../interfaces";
+  } from "../interfaces/interfaces";
   
 
 const generateName = (race: IRace, gender: IGender, cls: IClass): string => {

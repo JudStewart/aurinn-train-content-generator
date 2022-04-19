@@ -5,7 +5,7 @@ import {
   IRace,
   IGender,
   INameDomainObject,
-} from "../interfaces";
+} from "../interfaces/interfaces";
 
 /**
  * generate a name for a race and gender.

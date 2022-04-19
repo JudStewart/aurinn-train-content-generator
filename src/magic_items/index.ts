@@ -2,7 +2,7 @@ import * as Utils from "../utils";
 import MagicItemData from "./magic_items.json";
 import GenericData from "../genericData.json";
 import Names from "../names";
-import { IMagicItemGenerateProps } from "../interfaces";
+import { IMagicItemGenerateProps } from "../interfaces/interfaces";
 
 const _type = () => Utils.pick(MagicItemData.types);
 const _powerLevel = () => Utils.pick(MagicItemData.power_levels);

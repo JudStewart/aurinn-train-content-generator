@@ -1,4 +1,4 @@
-import { IGender } from "../interfaces";
+import { IGender } from "../interfaces/interfaces";
 
 import SeedRandom from "seedrandom";
 

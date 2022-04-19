@@ -1,6 +1,6 @@
 import * as Utils from "../utils";
 import LootData from "./loots.json";
-import { ILootGenerateProps, ILootDomainObject } from "../interfaces";
+import { ILootGenerateProps, ILootDomainObject } from "../interfaces/interfaces";
 
 export const generate = (props: ILootGenerateProps = {}): ILootDomainObject => {
   let { source, seed, quantity } = props;
