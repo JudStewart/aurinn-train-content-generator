@@ -12,7 +12,7 @@ import {
 
 const generateName = (race: IRace, gender: IGender, cls: IClass): string => {
         
-    if ((Utils.rand(0, 1) || race == null) && cls != null)
+    if ((Utils.rand(0, 1) || race == undefined) && cls != undefined)
     {
         //choose by class
         return create(Utils.pick(Data[cls]))
