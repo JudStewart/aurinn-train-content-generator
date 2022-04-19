@@ -11,28 +11,12 @@ import {
   
 
 const generateName = (race: IRace, gender: IGender, cls: IClass): string => {
-    
-    // if (race == undefined && cls == undefined)
-    // else if (Utils.rand(0, 1) || race == undefined || race == null)
-    // {
-    //     //choose by class
-    //     return create(Utils.pick(Data[cls]))
-    // }
-    // else if (cls != undefined && cls != null)
-    // {
-    //     //choose by race
-    //     if (Data[race].length == 0) //some races have no custom names
-    //     {
-    //         return create(Utils.pick(Defaults[race][Object.keys(Defaults[race])[0]]))
-    //     }
-        
-    //     return create(Utils.pick(Data[race]))
-    // }
-    race = race ? race : Utils.pick(Object.keys(Defaults))
+    race = race ?? Utils.pick(Object.keys(Defaults))
+    gender = gender ?? Object.keys(Defaults[race])[0] as IGender
     if (Utils.rand(0, 1) || cls == undefined) //if class is undefined or it randoms to race
     {
         if (Data[race].length == 0)
-            return create(Utils.pick(Defaults[race][Object.keys(Defaults[race])[0]]))
+            return create(Utils.pick(Defaults[race][gender]))
         return create(Utils.pick(Data[race]))
     }
     else // class is defined and it randomed to it

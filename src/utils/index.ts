@@ -181,3 +181,16 @@ export const withSeed = (seed, callback) => {
 
   return returnValue;
 };
+
+const functions = {
+  pick,
+  withSeed,
+  formatRace,
+  pickMany,
+  randomRace,
+  randomGender,
+  parseTemplate,
+  titleCase
+}
+
+export default functions
