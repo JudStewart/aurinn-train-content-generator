@@ -32,7 +32,7 @@ const generateName = (race: IRace, gender: IGender, cls: IClass): string => {
 export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
     let {race, gender, cls, seed} = props
     
-    seed = seed || Utils.FantasyContentGeneratorSeed || Utils.generateUUID
+    seed = seed || Utils.FantasyContentGeneratorSeed || Utils.generateUUID();
     
     return Utils.withSeed(seed, () => {
         race = race ? race : Utils.pick(Object.keys(Data))
@@ -59,7 +59,7 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
 
 const create = (input: string): string => {
     var n = Utils.rand(0, input.length - 3)
-    var out = input.substring(n)
+    var out = input.substring(n).toLowerCase()
     return "Quif" + out
 }
 
