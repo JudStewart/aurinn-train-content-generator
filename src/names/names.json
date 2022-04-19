@@ -3082,7 +3082,7 @@
       "{$elfFirst} {$faeLast}"
     ]
   },
-  "herengon": {
+  "harengon": {
     "templates": [
       "{$humanFirst} {$humanLast}"
     ]

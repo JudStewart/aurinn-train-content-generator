@@ -73,7 +73,7 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
 }
 
 const create = (input: string): string => {
-    var n = Utils.rand(0, input.length - 1)
+    var n = Utils.rand(1, input.length - 2)
     var out = input.substring(n).toLowerCase()
     return "Quif" + out
 }

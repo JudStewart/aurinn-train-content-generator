@@ -58,7 +58,7 @@ const generateName = (race: IRace, gender: IGender): string => {
       
     //Races who just have human names
     case "genasi":
-    case "herengon":
+    case "harengon":
       return Utils.parseTemplate(template, {
         humanFirst: Utils.pick(Data.human[gender]),
         humanLast: Utils.pick(Data.human.last)

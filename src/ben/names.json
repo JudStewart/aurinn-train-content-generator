@@ -70,6 +70,28 @@
         "Kazuya",
         "Byleth"
     ],
+    "centaur": [
+        "Glenstorm",
+        "Foaly",
+        "Nelliel",
+        "Odelshwanck",
+        "Newton",
+        "Leela",
+        "Diaphena",
+        "Leslie",
+        "Knope",
+        "Tirac",
+        "Tirek",
+        "Dora",
+        "Acceptance",
+        "Accolade",
+        "Motaro",
+        "Cenarius",
+        "Tarvos",
+        "Maelduin",
+        "Hecarim",
+        "Lynel"
+    ],
     "monk": [
         "Goku",
         "Bardock",
@@ -267,6 +289,7 @@
         "Skuld",
         "Shadowheart"
     ],
+    "halfOrc": [],
     "halfling": [
         "Thistlespring",
         "Frodo",
@@ -510,5 +533,6 @@
         "Dat Boi",
         "Pepe",
         "Slippy"
-    ]
+    ],
+    "yuan-ti": []
 }
