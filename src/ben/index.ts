@@ -13,14 +13,32 @@ import {
   
 
 const generateName = (race: IRace, gender: IGender, cls: IClass, seed?: ISeed): string => {
-    race = race ?? Utils.pick(Object.keys(Defaults))
-    if (Utils.rand(0, 1) || cls == undefined) //if class is undefined or it randoms to race
+    //if race and class are defined
+    if (cls != undefined && race != undefined)
     {
-        if (Data[race].length == 0)
+        //choose one randomly and base the name on that
+        if (Utils.rand(0, 3))
+        {
+            //class
+            create(Utils.pick(Data[cls]))
+        }
+        //race
+        if (Data[race] == undefined)
             return create(Names.generate({race: race, gender: gender, seed: seed}).formattedData.name)
+        
         return create(Utils.pick(Data[race]))
     }
-    else // class is defined and it randomed to it
+    //if class is undefined choose race (if undefined we randomize it)
+    if (cls == undefined)
+    {
+        race = race != undefined ? race : Utils.pick(Object.keys(Defaults))
+        if (Data[race] == undefined || Data[race].length == 0)
+            return create(Names.generate({race: race, gender: gender, seed: seed}).formattedData.name)
+        
+        return create(Utils.pick(Data[race]))
+    }
+    //if race is undefined choose class (can't be undefined here)
+    if (race == undefined)
     {
         return create(Utils.pick(Data[cls]))
     }
@@ -55,7 +73,7 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
 }
 
 const create = (input: string): string => {
-    var n = Utils.rand(0, input.length - 3)
+    var n = Utils.rand(0, input.length - 1)
     var out = input.substring(n).toLowerCase()
     return "Quif" + out
 }
