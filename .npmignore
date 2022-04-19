@@ -1,4 +1,5 @@
 .cache
 .vscode
+src
 docs
 fantasy_content_generator.js

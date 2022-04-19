@@ -61,14 +61,6 @@ FCG.Names.generate();
 }
 */
 
-FCG.Storyhooks.npcActs();
-/*
-{
-  seed: <uuid>,
-  storyhook: 'An NPC takes a liking to a PC'
-}
-*/
-
 FCG.NPCs.generate();
 /*
 {
@@ -123,7 +115,6 @@ There are a number of "sets" available. These are
 - `NPCs` - generates full NPCs
 - `Loots` - generates loot and treasure
 - `MagicItems` - generates magic items
-- `Storyhooks` - generates storyhooks
 - `Settlements` - generates settlement information
 
 and can all be found on the base Fantasy Content Generator object.

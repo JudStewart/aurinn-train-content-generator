@@ -67,18 +67,6 @@ A seed can be passed to ensure deterministic generation
 FCG.Names.elf({ seed: "a" }); // seed of 'a' will always be the same
 ```
 
-# `Storyhooks`
-
-Generate short, interesting things to happen that can spur on an encounter or spice things up if they're getting stale.
-
-## `npcActs()`
-
-An NPC does something.
-
-```js
-FCG.Storyhooks.npcActs(); // 'An NPC becomes fearful'
-```
-
 # `NPCs`
 
 Generate NPCs.
