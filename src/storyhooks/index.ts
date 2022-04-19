@@ -1,9 +1,5 @@
 import * as Utils from "../utils";
-import {
-  IStoryhookGenerateProps,
-  IStoryhookDomainObject,
-  eStoryhookBanks,
-} from "../interfaces";
+import {IStoryhookGenerateProps, IStoryhookDomainObject, eStoryhookBanks} from "../interfaces";
 import NPCActs from "./npc_acts.json";
 import PCRelated from "./pc_related.json";
 import LocationBasedUrban from "./location_based_urban.json";

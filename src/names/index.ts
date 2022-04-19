@@ -69,7 +69,9 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
 
     const name = generateName(race, gender);
 
-    const [firstName, lastName] = name.split(" ");
+    var [firstName, lastName] = ["",""]
+    if (name.indexOf(" ") != -1) [firstName, lastName] = name.split(" ");
+    else [firstName, lastName] = [name, ""];
 
     return {
       seed,
