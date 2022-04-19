@@ -22,7 +22,7 @@ const generateName = (race: IRace, gender: IGender, cls: IClass): string => {
         //choose by race
         if (Data[race].length == 0) //some races have no custom names
         {
-            return create(Utils.pick(Defaults[race][gender]))
+            return create(Utils.pick(Defaults[race][Object.keys(Defaults[race])[0]]))
         }
         
         return create(Utils.pick(Data[race]))
