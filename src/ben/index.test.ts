@@ -6,8 +6,8 @@ describe("Names", () => {
     it("generate a name", () => {
       const nameObject = Ben.generate();
 
-      expect(nameObject.race).not.toBeUndefined();
-      expect(nameObject.gender).not.toBeUndefined();
+      // expect(nameObject.race).not.toBeUndefined();
+      // expect(nameObject.gender).not.toBeUndefined();
       expect(nameObject.name).not.toBeUndefined();
       expect(nameObject.seed).not.toBeUndefined();
     });
