@@ -1,4 +1,5 @@
 import * as Utils from "../utils";
+import Names from '../names'
 import Data from "./names.json";
 import Defaults from "../names/names.json";
 import {
@@ -7,16 +8,16 @@ import {
     IGender,
     IClass,
     INameDomainObject,
+    ISeed,
   } from "../interfaces/interfaces";
   
 
-const generateName = (race: IRace, gender: IGender, cls: IClass): string => {
+const generateName = (race: IRace, gender: IGender, cls: IClass, seed?: ISeed): string => {
     race = race ?? Utils.pick(Object.keys(Defaults))
-    gender = gender ?? Object.keys(Defaults[race])[0] as IGender
     if (Utils.rand(0, 1) || cls == undefined) //if class is undefined or it randoms to race
     {
         if (Data[race].length == 0)
-            return create(Utils.pick(Defaults[race][gender]))
+            return create(Names.generate({race: race, gender: gender, seed: seed}).formattedData.name)
         return create(Utils.pick(Data[race]))
     }
     else // class is defined and it randomed to it
@@ -28,12 +29,12 @@ const generateName = (race: IRace, gender: IGender, cls: IClass): string => {
 export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
     let {race, gender, cls, seed} = props
     
-    seed = seed || Utils.FantasyContentGeneratorSeed || Utils.generateUUID();
+    seed = seed ?? Utils.FantasyContentGeneratorSeed ?? Utils.generateUUID();
     
     return Utils.withSeed(seed, () => {
         race = race ? race : Utils.pick(Object.keys(Data))
         gender = gender ? gender : Utils.randomGender()
-        const name = generateName(race, gender, cls)
+        const name = generateName(race, gender, cls, seed)
         return {
             seed,
             name,
