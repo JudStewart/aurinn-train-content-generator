@@ -4,6 +4,7 @@ import Names from "./names";
 import NPCs from "./npcs";
 import Settlements from "./settlements";
 import Establishments from "./establishments";
+import Utils from "./utils";
 import Ben from "./ben";
 
 export {
@@ -13,5 +14,6 @@ export {
   NPCs,
   Settlements,
   Establishments,
+  Utils,
   Ben
 };
