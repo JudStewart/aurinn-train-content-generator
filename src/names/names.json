@@ -2775,9 +2775,7 @@
     ],
     "templates": [
       "{$humanFirst} {$humanLast}",
-      "{$humanFirst}",
-      "{$tieflingFirst} {$humanLast}",
-      "{$tieflingFirst}"
+      "{$tieflingFirst} {$humanLast}"
     ]
   },
   "aasimar": {
