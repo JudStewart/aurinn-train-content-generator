@@ -1,16 +1,17 @@
 import * as Utils from "../utils/"
 import Data from "./backgrounds.json"
 import {
-    IMorality,
+    ISeed,
     IIdealGenerateProps,
     IIdeal,
     IBond,
-    IPersonalityTrait
+    IPersonalityTrait,
+    IFlaw
 } from "../interfaces/interfaces"
 import { IPCBackground } from "../interfaces/interfaces"
 
 export const random = () => {
-    return Utils.pick(Data)
+    return Utils.pick(Object.keys(Data))
 }
 
 export const randomIdeal = (props: IIdealGenerateProps): IIdeal => {
@@ -31,14 +32,14 @@ export const randomIdeal = (props: IIdealGenerateProps): IIdeal => {
         }
         if (adherence != undefined && Object.keys(ideals).includes(adherence))
         {
-            if (adherence != neutral || !neutralFlag)
+            if (adherence != "neutral" || !neutralFlag)
                 choices.push(...ideals[adherence])
         }
         Utils.pick(choices)
     })
 }
 
-export const randomBond = (background: IPCBackground, seed?: ISeed = undefined): IBond => {
+export const randomBond = (background: IPCBackground, seed: ISeed = undefined): IBond => {
     seed = seed ?? Utils.FantasyContentGeneratorSeed ?? Utils.generateUUID()
 
     return Utils.withSeed(seed, () => {
@@ -46,7 +47,7 @@ export const randomBond = (background: IPCBackground, seed?: ISeed = undefined):
     })
 }
 
-export const randomFlaw = (background: IPCBackground, seed?: ISeed = undefined): IFlaw => {
+export const randomFlaw = (background: IPCBackground, seed: ISeed = undefined): IFlaw => {
     seed = seed ?? Utils.FantasyContentGeneratorSeed ?? Utils.generateUUID()
 
     return Utils.withSeed(seed, () => {
@@ -54,7 +55,7 @@ export const randomFlaw = (background: IPCBackground, seed?: ISeed = undefined):
     })
 }
 
-export const randomPersonalityTrait = (background: IPCBackground, seed?: ISeed = undefined): IPersonalityTrait => {
+export const randomPersonalityTrait = (background: IPCBackground, seed: ISeed = undefined): IPersonalityTrait => {
     seed = seed ?? Utils.FantasyContentGeneratorSeed ?? Utils.generateUUID()
 
     return Utils.withSeed(seed, () => {
