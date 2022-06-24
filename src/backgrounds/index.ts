@@ -21,14 +21,18 @@ export const randomIdeal = (props: IIdealGenerateProps): IIdeal => {
     return Utils.withSeed(seed, () => {
         let ideals = background["ideals"]
         let choices = []
-        choices.push(...ideals["any"])
+        let neutralFlag = false
+        if (Object.keys(ideals).includes("any")) 
+            choices.push(...ideals["any"])
         if (morality != undefined && Object.keys(ideals).includes(morality))
         {
             choices.push(...ideals[morality])
+            if (morality == "neutral") neutralFlag = true
         }
         if (adherence != undefined && Object.keys(ideals).includes(adherence))
         {
-            choices.push(...ideals[adherence])
+            if (adherence != neutral || !neutralFlag)
+                choices.push(...ideals[adherence])
         }
         Utils.pick(choices)
     })
