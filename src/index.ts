@@ -6,6 +6,7 @@ import Settlements from "./settlements";
 import Establishments from "./establishments";
 import Utils from "./utils";
 import Ben from "./ben";
+import Backgrounds from "./backgrounds";
 
 export {
   Loots,
@@ -15,5 +16,6 @@ export {
   Settlements,
   Establishments,
   Utils,
-  Ben
+  Ben,
+  Backgrounds
 };
