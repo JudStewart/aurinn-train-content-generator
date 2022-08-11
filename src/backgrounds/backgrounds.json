@@ -1,6 +1,6 @@
 {
     "acolyte": {
-        "description": "",
+        "description": "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.\n Choose a god, a pantheon of gods, or some other quasi-divine being, and work with your DM to detail the nature of your religious service. The Gods of the Multiverse section contains a sample pantheon, from the Forgotten Realms setting. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.",
         "skill proficiencies": [
             "insight",
             "religion"
@@ -19,8 +19,9 @@
         ],
         "feature": {
             "name": "Shelter of the Faithful",
-            "description": ""
+            "description": "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.\nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
         },
+        "characteristics": "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
         "personality traits": [
             "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.",
             "I can find common ground between the fiercest of enemies, empathizing with them and always working towards peace.",
@@ -64,9 +65,199 @@
             "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
         ]
     },
-
-    "charlatan": {
+    
+    "anthropologist": {
+        "description": "You have always been fascinated by other cultures, from the most ancient and primeval lost lands to the most modern civilizations. By studying other cultures’ customs, philosophies, laws, rituals, religious beliefs, languages, and art, you have learned how tribes, empires, and all forms of society in between craft their own destinies and doom. This knowledge came to you not only through books and scrolls, but also through first-hand observation—by visiting far-flung settlements and exploring local histories and customs.",
+        "skill proficiencies": [
+            "insight",
+            "religion"
+        ],
+        "languages": [
+            "*",
+            "*"
+        ],
+        "equipment": [
+            "A lether-bound diary",
+            "A bottle of ink",
+            "An ink pen",
+            "A set of traveler's clothes",
+            "one trinket of special significance",
+            "A belt pouch containing 15 gp"
+        ],
+        "additional rolls": {
+            "Cultural Chameleon": [
+                "Aarakocra",
+                "Dwarf",
+                "Elf",
+                "Goblin",
+                "Halfling",
+                "Human",
+                "Lizardfolk",
+                "Orc"
+            ]
+        },
+        "feature": {
+            "name": "Adept Linguist",
+            "description": "You can communicate with humanoids who don’t speak any language you know. You must observe the humanoids interacting with one another for at least 1 day, after which you learn a handful of important words, expressions, and gestures—enough to communicate on a rudimentary level."
+        },
+        "characteristics": "Anthropologists leave behind the societies into which they were born to discover what life is like in other parts of the world. They seek to see how other races and civilizations survive — or why they did not. Some anthropologists are driven by intellectual curiosity, while others want the fame and recognition that comes with being the first to discover a new people, a lost tribe, or the truth about an ancient empire’s downfall.",
+        "personality traits": [
+            "I prefer the company of those who aren’t like me, including people of other races.",
+            "I’m a stickler when it comes to observing proper etiquette and local customs.",
+            "I would rather observe than meddle.",
+            "By living among violent people, I have become desensitized to violence.",
+            "I would risk life and limb to discover a new culture or unravel the secrets of a dead one.",
+            "When I arrive at a new settlement for the first time, I must learn all its customs."
+        ],
+        "ideals": {
+            "any": [
+                "Discovery. I want to be the first person to discover a lost culture.",
+                "Knowledge. By understanding other races and cultures, we learn to understand ourselves." 
+            ],
+            "lawful": [
+                "Distance. One must not interfere with the affairs of another culture—even one in need of aid.",
+                "Power. Common people crave strong leadership, and I do my utmost to provide it."
+            ],
+            "good": [
+                "Protection. I must do everything possible to save a society facing extinction."
+            ],
+            "chaotic": [
+                "Indifferent. Life is cruel. What’s the point in saving people if they’re going to die anyway?"
+            ]
+        },
+        "bonds": [
+            "My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me.",
+            "Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring.",
+            "Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them.",
+            "I want to learn more about a particular humanoid culture that fascinates me.",
+            "I seek to avenge a clan, tribe, kingdom, or empire that was wiped out.",
+            "I have a trinket that I believe is the key to finding a long-lost society."
+        ],
+        "flaws": [
+            "Boats make me seasick.",
+            "I talk to myself, and I don't make friends easily.",
+            "I believe that I’m intellectually superior to people from other cultures and have much to teach them.",
+            "I’ve picked up some unpleasant habits living among goblins, lizardfolk, or orcs.",
+            "I complain about everything",
+            "I wear a tribal mask and never take it off."
+        ]
+    },
+    "archaeologist": {
+        "description": "An archaeologist learns about the long-lost and fallen cultures of the past by studying their remains — their bones, their ruins, their surviving masterworks, and their tombs. Those who practice archaeology travel to the far corners of the world to root through crumbled cities and lost dungeons, digging in search of artifacts that might tell the stories of monarchs and high priests, wars and cataclysms.",
+        "skill proficiencies": [
+            "history",
+            "survival"
+        ],
+        "tool proficiencies": [
+            "Cartographer's tools or Navigator's tools"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A wooden case containing a map to a ruin or dungeon",
+            "A bullseye lantern",
+            "A miner's pick",
+            "A set of traveler's clothes",
+            "A shovel",
+            "A two-person tent",
+            "A trinket recovered from a dig site",
+            "A belt pouch containing 25 gp"
+        ],
+        "additional rolls": {
+            "Dust Digger": [
+                "10-foot poll",
+                "Crowbar",
+                "Hat",
+                "Hooded lantern",
+                "Medallion",
+                "Shovel",
+                "Sledgehammer",
+                "Whip"
+            ]
+        },
+        "feature": {
+            "name": "Historical Knowledge",
+            "description": "When you enter a ruin or dungeon, you can correctly ascertain its original purpose and determine its builders, whether those were dwarves, elves, humans, yuan-ti, or some other known race. In addition, you can determine the monetary value of art objects more than a century old."
+        },
+        "characteristics": "Few archaeologists can resist the lure of an unexplored ruin or dungeon, particularly if such a site is the source of legends or is rumored to contain the treasures and relics of wizards, warlords, or royalty. Some archaeologists plunder for wealth or fame, while others consider it their calling to illuminate the past or keep the world’s greatest treasures from falling into the wrong hands. Whatever their motivations, archaeologists combine the qualities of a scrappy historian with the self-made heroism of a treasure-hunting scoundrel.",
+        "personality traits": [
+            "I love a good puzzle or mystery.",
+            "I’m a pack rat who never throws anything away.",
+            "Fame is more important to me than money.",
+            "I have no qualms about stealing from the dead.",
+            "I’m happier in a dusty old tomb than I am in the centers of civilization.",
+            "Traps don’t make me nervous. Idiots who trigger traps make me nervous.",
+            "I might fail, but I will never give up.",
+            "You might think I’m a scholar, but I love a good brawl. These fists were made for punching"
+        ],
+        "ideals": {
+            "good": [
+                "Preservation. That artifact belongs in a museum."
+            ],
+            "any": [
+                "Greed. I won’t risk my life for nothing. I expect some kind of payment.",
+                "Immortality. All my exploring is part of a plan to find the secret of everlasting life.",
+                "Danger. With every great discovery comes grave danger. The two walk hand in hand."
+            ],
+            "chaotic": [
+                "Death Wish. Nothing is more exhilarating than a narrow escape from the jaws of death."
+            ],
+            "lawful": [
+                "The dead and their belongings deserve to be treated with respect."
+            ]
+        },
+        "bonds": [
+            "Ever since I was a child, I’ve heard stories about a lost city. I aim to find it, learn its secrets, and earn my place in the history books.",
+            "I want to find my mentor, who disappeared on an expedition some time ago.",
+            "I have a friendly rival. Only one of us can be the best, and I aim to prove it’s me.",
+            "I won’t sell an art object or other treasure that has historical significance or is one of a kind.",
+            "I’m secretly in love with the wealthy patron who sponsors my archaeological exploits.",
+            "I hope to bring prestige to a library, a museum, or a university."
+        ],
+        "flaws": [
+            "I have a secret fear of some common wild animal—and in my work, I see them everywhere.",
+            "I can’t leave a room without searching it for secret doors.",
+            "When I’m not exploring dungeons or ruins, I get jittery and impatient.",
+            "I have no time for friends or family. I spend every waking moment thinking about and preparing for my next expedition.",
+            "When given the choice of going left or right, I always go left.",
+            "I can’t sleep except in total darkness."
+        ]
+    },
+    "athlete": {
         "description": "",
+        "skill proficiencies": [
+            
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "equipment": [
+            
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "",
+            "description": ""
+        },
+        "characteristics": "",
+        "personality traits": [
+            
+        ],
+        "ideals": {
+            
+        },
+        "bonds": [
+            
+        ],
+        "flaws": [
+            
+        ]
+    },
+    "charlatan": {
+        "description": "You have always had a way with people. You know what makes them tick, you can tease out their hearts’ desires after a few minutes of conversation, and with a few leading questions you can read them like they were children’s books. It’s a useful talent, and one that you’re perfectly willing to use for your advantage.\nYou know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seems to be in short supply when you’re around. The bottle of pink-colored liquid will surely cure that unseemly rash, this ointment — nothing more than a bit of fat with a sprinkle of silver dust — can restore youth and vigor, and there’s a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like the real deal.",
         "skill proficiencies": [
             "deception",
             "slight of hand"
@@ -93,8 +284,9 @@
         },
         "feature": {
             "name": "False Identity",
-            "description": ""
+            "description": "You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
         },
+        "characteristics": "Charlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
         "personality traits": [
             "I fall in and out of love easily, and am always persuing someone.",
             "I have a joke for every occasion, especially occasions where humor is inappropriate.",
@@ -139,7 +331,7 @@
         ]
     },
     "criminal": {
-        "description": "",
+        "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.",
         "skill proficiencies": [
             "deception",
             "stealth"
@@ -167,8 +359,9 @@
         },
         "feature": {
             "name": "Criminal Contact",
-            "description": ""
+            "description": "You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
         },
+        "characteristics": "There are many kinds of criminals, and within a thieves’ guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.",
         "personality traits": [
             "I always have a plan for what to do when things go wrong.",
             "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.",
@@ -215,7 +408,7 @@
         ]
     },
     "entertainer": {
-        "description": "",
+        "description": "You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life.",
         "skill proficiencies": [
             "acrobatics",
             "performance"
@@ -246,8 +439,9 @@
         },
         "feature": {
             "name": "By Popular Demand",
-            "description": ""
+            "description": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
         },
+        "characteristics": "A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.",
         "personality traits": [
             "I know a story relevant to almost every situation.",
             "Whenever I come to a new place, I collect local rumors and spread gossip.",
@@ -296,7 +490,7 @@
         ]
     },
     "folk hero": {
-        "description": "",
+        "description": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.",
         "skill proficiencies": [
             "animal handling",
             "survival"
@@ -328,8 +522,9 @@
         },
         "feature": {
             "name": "Rustic Hospitality",
-            "description": ""
+            "description": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
         },
+        "characteristics": "A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
         "personality traits": [
             "I judge people by their actions, not their words.",
             "If someone is in trouble, I'm always ready to lend help.",
@@ -375,6 +570,38 @@
             "I have a weakness for the vices of the city, especially hard drink.",
             "Secretly, I believe that things would be better if I were a tyrant lording over the land.",
             "I have trouble trusting in my allies."
+        ]
+    },
+    "background template": {
+        "description": "",
+        "skill proficiencies": [
+            
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "equipment": [
+            
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "",
+            "description": ""
+        },
+        "characteristics": "",
+        "personality traits": [
+            
+        ],
+        "ideals": {
+            
+        },
+        "bonds": [
+            
+        ],
+        "flaws": [
+            
         ]
     }
 }
