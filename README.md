@@ -1,6 +1,15 @@
 # Aurinn Train Content Generator
 
-A custom forked version of Fantasy Content Generator being used specificly for Aurinn Train, a D&D 5e custom campaign format. Below is the (mostly unchanged) readme for the original project:
+A custom forked version of Fantasy Content Generator being used specificly for Aurinn Train, a D&D 5e custom campaign format. 
+
+Planned Features:
+
+- Random flaws, ideals, and bonds based on background and alignment
+- Races from Monsters of the Multiverse
+- Random height and weight based on race
+- Random hair and eye color based on race
+
+Below is the (mostly unchanged) readme for the original project:
 
 [![npm](https://img.shields.io/npm/v/fantasy-content-generator.svg?style=flat-square)](https://www.npmjs.com/package/fantasy-content-generator)
 
