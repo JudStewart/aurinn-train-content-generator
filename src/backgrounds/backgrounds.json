@@ -225,35 +225,155 @@
         ]
     },
     "athlete": {
-        "description": "",
+        "description": "You strive to perfect yourself physically and in execution of everything you do. The thrill of competition lights fire in your blood, and the roar of the crowd drives you forward. Tales of your exploits precede you and might open doors or loosen tongues. Whether in one of the poleis, between them, or among the nonhuman peoples of Theros, physical contests and those who pursue them command respect bordering on reverence. Athletes arise from all walks of life and all cultures and quite often cross paths with one another.",
         "skill proficiencies": [
-            
+            "acrobatics",
+            "athletics"
         ],
         "tool proficiencies": [
-            
+            "vehicles (land)"
+        ],
+        "languages": [
+            "*"
         ],
         "equipment": [
-            
+            "A bronze discus or leather ball",
+            "A lucky charm or past trophy",
+            "A set of traveler's clothes",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Favored Event": [
+                "Marathon",
+                "Long-distance running",
+                "Wrestling",
+                "Boxing",
+                "Chariot or horse race",
+                "Pankration (mixed unarmed combat)",
+                "Hoplite race (racing in full armor with a unit)",
+                "Pentathlon (running, long jump, discus, javelin, wrestling)"
+            ]
+        },
+        "feature": {
+            "name": "Echoes of Victory",
+            "description": "You have attracted admiration among spectators, fellow athletes, and trainers in the region that hosted your past athletic victories. When visiting any settlement within 100 miles of where you grew up, there is a 50 percent chance you can find someone there who admires you and is willing to provide information or temporary shelter. Between adventures, you might compete in athletic events sufficient enough to maintain a comfortable lifestyle, as per the “Practicing a Profession” downtime activity in chapter 8 of the Player’s Handbook."
+        },
+        "characteristics": "Competition can forge strong bonds between teammates and rivals or ignite bitter feuds that burn outside the arena. Athletes often apply lessons from their training to their lives in general.",
+        "personality traits": [
+            "I feel most at peace during physical exertion, be it exercise or battle.",
+            "I don’t like to sit idle.",
+            "I have a daily exercise routine that I refuse to break.",
+            "Obstacles exist to be overcome.",
+            "When I see others struggling, I offer to help.",
+            "I love to trade banter and gibes.",
+            "Anything worth doing is worth doing best.",
+            "I get irritated if people praise someone else and not me."
+        ],
+        "ideals": {
+            "chaotic": [
+                "Competition. I strive to test myself in all things."
+            ],
+            "evil": [
+                "Triumph. The best part of winning is seeing my rivals brought low."
+            ],
+            "good": [
+                "Camaraderie. The strongest bonds are forged through struggle."
+            ],
+            "neutral": [
+                "People. I strive to inspire my spectators."
+            ],
+            "lawful": [
+                "Tradition. Every game has rules, and the playing field must be level."
+            ],
+            "any": [
+                "Growth. Lessons hide in victory and defeat."
+            ]
+        },
+        "bonds": [
+            "My teammates are my family.",
+            "I will overcome a rival and prove myself their better.",
+            "My mistake got someone hurt. I’ll never make that mistake again.",
+            "I will be the best for the honor and glory of my home.",
+            "The person who trained me is the most important person in my world.",
+            "I strive to live up to a specific hero’s example."
+        ],
+        "flaws": [
+            "I indulge in a habit that threatens my reputation or my health.",
+            "I’ll do absolutely anything to win.",
+            "I ignore anyone who doesn’t compete and anyone who loses to me.",
+            "I have lingering pain from old injuries.",
+            "Any defeat or failure on my part is because my opponent cheated.",
+            "I must be the captain of any group I join."
+        ]
+    },
+    "celebrity adventurer's scion": {
+        "description": "Your family name strikes fear and admiration in the hearts of the common folk - but that's got nothing to do with you. Songs and stories celebrating the adventuring exploits of your famous parent are widely known. Kids across the land grew up wishing they were you. But being the child of a famous adventurer wasn't all hugs and kisses.\nYou seldom saw your celebrity-adventurer parent, and when they were around, it was all about them and tales of slaying this demon or vanquishing that dragon. All too often, you'd be woken out of a sound sleep by someone standing outside your home screaming about the latest threat to the town, the region, or the world.\nIn the end, all you have to show for your lineage is your name. Most of the family's money went for consumables, from potions of healing and spell scrolls to copious amounts of dwarven ale. And everyone expects you to swing a sword or sling spells like your famous forebear, making it doubly hard for you to prove yourself.",
+        "skill proficiencies": [
+            "perception",
+            "performance"
+        ],
+        "tool proficiencies": [
+            "disguise kit"
+        ],
+        "languages": [
+            "*", "*"
+        ],
+        "equipment": [
+            "A disguise kit",
+            "A fine set of clothes",
+            "A belt pouch containing 30 gp"
         ],
         "additional rolls": {
             
         },
         "feature": {
-            "name": "",
-            "description": ""
+            "name": "Name Dropping",
+            "description": "You know and have met any number of powerful people across the land - and some of them might even remember you. You might be able to wrangle minor assistance from a major figure in the campaign, at the DM's discretion. Additionally, the common folk treat you with deference, and your heritage and the stories you tell might be good for a free meal or a place to sleep."
         },
-        "characteristics": "",
+        "characteristics": "Scions of celebrity adventurers must deal with fame that's not theirs, wealth they didn't earn, and expectations they can never hope to meet. These hardships can have adverse effects, but those who cope with them can arrive at a decent attitude and a grounded worldview. Those who fail become bitter - or worse.",
         "personality traits": [
-            
+            "I will never get out of my famous parent's shadow, and no one else will ever understand this burden.",
+            "I've seen enough of the adventuring life to have realistic expectations and empathy for my peers.",
+            "Living up to my legacy will be difficult, but I'm going to do it.",
+            "I'm used to the very best in life, and that's a hard habit to break.",
+            "My parent taught me a sense of duty. I strive to uphold it, even when the odds are against me.",
+            "No one can fake a smile, a handshake, or an interested nod like I can.",
+            "I've been part of the adventuring life since I was old enough to walk. Let me explain a few things to you.",
+            "No risk is too great for the rewards of defeating my enemies … and taking their stuff."
         ],
         "ideals": {
-            
+            "evil": [
+                "Power. The only way to get ahead in this world is to attain power and hold onto it with all your might."
+            ],
+            "lawful": [
+                "Peace. Those who can find or make peace in the chaotic world around them have everything."
+            ],
+            "neutral": [
+                "Fame. I've seen what fame can bring. And I'll do anything to get all that for myself."
+            ],
+            "any": [
+                "Training. Hard work, sacrifice, and training lead to success - and eventually to perfection.",
+                "Anonymity. I want to be successful. And alone. With lots of guards and wards between me and everyone else in the world."
+            ],
+            "good": [
+                "Wisdom. Material wealth is an illusion. Wisdom is the real treasure."
+            ]
         },
         "bonds": [
-            
+            "While my parent was out adventuring, a servant raised me, and I care about that person more than anyone.",
+            "I consider every member of my parent's former adventuring party to be family.",
+            "Despite their absences, my famous parent was kind and generous. I love them and want to make them proud.",
+            "My parent once brought a cursed magic item home. It is my obsession.",
+            "My childhood home holds all my best memories, and its upkeep is my primary concern.",
+            "Growing up, I had an imaginary friend I could always count on. That friend is still with me."
         ],
         "flaws": [
-            
+            "You don't know what I'm going through. You never can.",
+            "You. Fetch my cloak. And maybe rub my feet for a while.",
+            "My comrades are brave, but I must defeat this threat alone to prove my worth.",
+            "Oh, yeah, that spell? Named after my parent's best friend. Let me tell you about them.",
+            "My best days are behind me. Ahead lies only toil, pain, and death.",
+            "You have to look out for yourself. No one else will."
         ]
     },
     "charlatan": {
@@ -331,9 +451,9 @@
         ]
     },
     "city watch / investigator": {
-        "description": "You have served the community where you grew up, standing as its first line of defense against crime. You aren't a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe. Even if you're not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sxheriffs and bailiffs who stand ready to protect their community.",
+        "description": "You have served the community where you grew up, standing as its first line of defense against crime. You aren't a soldier, directing your gaze outward at possible enemies. Instead, your service to your hometown was to help police its populace, protecting the citizenry from lawbreakers and malefactors of every stripe. Even if you're not city-born or city-bred, this background can describe your early years as a member of law enforcement. Most settlements of any size have their own constables and police forces, and even smaller communities have sxheriffs and bailiffs who stand ready to protect their community.\nVariant: Investigator: Rarer than watch or patrol members are a community’s investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in Investigation rather than Athletics.",
         "skill proficiencies": [
-            "athletics",
+            "athletics|investigation",
             "insight"
         ],
         "languages": [
@@ -396,7 +516,6 @@
             "I obey the law, even if the law causes misery.",
             "I'd rather eat my armor than admit when I'm wrong."
         ]
-        TODO: What to do about variant?
     },
     "clan crafter": {
         "description": "",
@@ -470,7 +589,7 @@
     "cloistered scholar": {
         "description": "",
         "skill proficiencies": [
-            "history", "arcana nature religion"
+            "history", "arcana|nature|religion"
         ],
         "languages": [
             "*", "*"
@@ -558,10 +677,45 @@
             "I don't part with my money easily and will haggle tirelessly to get the best deal possible.",
             "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
         ],
-        TODO: dndbeyond lists these as the same as "clan crafter" which I think is wrong
+        "ideals": {
+            "any": [
+                "Aspiration. I work hard to be the best there is at my craft."
+            ],
+            "lawful": [
+                "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization."
+            ],
+            "good": [
+                "Generosity. My talents were given to me so that I could use them to benefit the world."
+            ],
+            "chaotic": [
+                "Freedom. Everyone should be free to pursue his or her own livelihood."
+            ],
+            "evil": [
+                "Greed. I'm only in it for the money."
+            ],
+            "neutral": [
+                "People. I'm committed to the people I care about, not to ideals."
+            ]
+        },
+        "bonds": [
+            "The workshop where I learned my trade is the most important place in the world to me.",
+            "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.",
+            "I owe my guild a great debt for forging me into the person I am today.",
+            "I pursue wealth to secure someone's love.",
+            "One day I will return to my guild and prove that I am the greatest artistan of them all.",
+            "I will get revenge on the evil forces that derstroyed my place of business and ruined my livelihood."
+        ],
+        "flaws": [
+            "I'm never satisfied with what I have—I always want more.",
+            "I'll do anything to get my hands on something rare or priceless.",
+            "I'm quick to assume that someone is trying to cheat me.",
+            "No one must ever learn that I once stole money from guild coffers.",
+            "I would kill to acquire a noble title.",
+            "I'm horribly jealous of anyoned who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+        ]
     },
     "criminal": {
-        "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.",
+        "description": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.\nVariant: Spy\nAlthough your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.",
         "skill proficiencies": [
             "deception",
             "stealth"
@@ -719,6 +873,437 @@
             "Despite my best efforts, I am unreliable to my friends."
         ]
     },
+    "faceless": {
+        "description": "Being who you are, you could never be a hero. Whether due to your class, your people, your family, or your sins, something about you prevents you from effectively pursuing the path you’ve chosen. Even so, that doesn’t stop you. You’ve left your old face behind, taking on a new persona, becoming something more.\n\nCharacters with the faceless background don a disguise — literally or otherwise — as they adventure. This persona might be dramatic or subtle. In a way, though, many characters have such larger than life personalities. Therefore, this background largely focuses on detailing the hero behind the mask.",
+        "skill proficiencies": [
+            "deception",
+            "intimidation"
+        ],
+        "tool proficiencies": [
+            "disguise kit"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A disguise kit",
+            "A costume",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Faceless Persona": [
+                "A flamboyant spy or brigand",
+                "The incarnation of a nation or people",
+                "A scoundrel with a masked guise",
+                "A vengeful spirit",
+                "The manifestation of a deity or your faith",
+                "One whose beauty is greatly accented using makeup",
+                "An impersonation of another hero",
+                "The embodiment of a school of magic",
+                "A warrior with distinctive armor",
+                "A disguise with animalistic or monstrous characteristics, meant to inspire fear"
+            ]
+        },
+        "feature": {
+            "name": "Dual Personalities",
+            "description": "Most of your fellow adventurers and the world know you as your persona. Those who seek to learn more about you—your weaknesses, your origins, your purpose—find themselves stymied by your disguise. Upon donning a disguise and behaving as your persona, you are unidentifiable as your true self. By removing your disguise and revealing your true face, you are no longer identifiable as your persona. This allows you to change appearances between your two personalities as often as you wish, using one to hide the other or serve as convenient camouflage. However, should someone realize the connection between your persona and your true self, your deception might lose its effectiveness."
+        },
+        "characteristics": "A faceless character usually plays their persona — the hero or extraordinary person they are every day. That’s all a facade, though, or a part of them expressed to an extreme. To define a persona, feel free to choose characteristics from other backgrounds, particularly folk hero, hermit, or noble. For the person behind the persona, the one who truly strives to be faceless, consider a distinct set of faceless characteristics. As a result, those with this background have two sets of characteristics, one for their persona, and one for their faceless selves.",
+        "personality traits": [
+            "I'm earnest and uncommonly direct.",
+            "I strive to have no personality — it's easier to forget what's hardly there.",
+            "I treasure a momento of the person or instance that set me upon my path.",
+            "I sleep just as much as I need to and on an unusual schedule.",
+            "I think far ahead, a detachedness often mistaken for daydreaming.",
+            "I cultivate a single obscure hobby or study and eagerly discuss it at length.",
+            "I am ever learning how to be among others — when to stay quiet, when to laugh.",
+            "I behave like an extreme opposite of my persona."
+        ],
+        "ideals": {
+            "good": [
+                "Justice. Place in society shouldn’t determine one’s access to what is right."
+            ],
+            "lawful": [
+                "Security. Doing what must be done can’t bring the innocent to harm."
+            ],
+            "chaotic": [
+                "Confusion. Deception is a weapon. Strike from where your foes won’t expect."
+            ],
+            "evil": [
+                "Infamy. My name will be a malediction, a curse that fulfills my will."
+            ],
+            "any": [
+                "Incorruptibility. Be a symbol, and leave your flawed being behind.",
+                "Anonymity. It’s my deeds that should be remembered, not their instrument."
+            ]
+        },
+        "bonds": [
+            "I do everything for my family. My first thought is keeping them safe.",
+            "What I do, I do for the world. The people don’t realize how much they need me.",
+            "I’ve seen too many in need. I must not fail them as everyone else has.",
+            "I stand in opposition, lest the wicked go unopposed.",
+            "I am exceptional. I do this because no one else can, and no one can stop me.",
+            "I do everything for those who were taken from me."
+        ],
+        "flaws": [
+            "I am callous about death. It comes to us all eventually.",
+            "I never make eye contact or hold it unflinchingly.",
+            "I have no sense of humor. Laughing is uncomfortable and embarrassing.",
+            "I overexert myself, sometimes needing to recuperate for a day or more.",
+            "I think far ahead, a detachedness often mistaken for daydreaming.",
+            "I see morality entirely in black and white."
+        ]
+    },
+    "failed merchant": {
+        "description": "Maybe you come from a long line of merchants. Perhaps you were an entrepreneur. Regardless. your ventures ended poorly. Whether it was because of outside influences, bad luck, or simply because your business acumen was weak, you lost everything.\n\nWith failure, however. comes experience. You're free of that old life, having made some connections and learned your lessons. Prepared to pursue the life of an adventurer, your insight into the world of commerce brought you into the sphere of Acquisitions Incorporated - and a franchise just might be in your future.",
+        "skill proficiencies": [
+            "investigation",
+            "persuasion"
+        ],
+        "tool proficiencies": [
+            "one type of artisan's tools"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "One set of artisan's tools",
+            "A merchant's scale",
+            "A set of fine clothes",
+            "A belt pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "Supply Chain",
+            "description": "From your time as a merchant, you retain connections with wholesalers, suppliers, and other merchants and entrepreneurs. You can call upon these connections when looking for items or information."
+        },
+        "characteristics": "Being a merchant involved having a head for numbers, a strong personality. the ability to make deals with hostile adversaries, a strong sword arm to fight off bandits, and the intuition for knowing what people want and need. The art of business is the art of finding the best path to profit, and that path might be different with each transaction. It takes a strong mind and a stronger stomach to succeed. So why did you fail?",
+        "personality traits": [
+            "I didn't have the cutthroat attitude necessary to succeed. I won't make that mistake again.",
+            "Even my competitors said I was affable and talented. Those traits should serve me well.",
+            "To prosper, you have to be in control.",
+            "The customer is always right.",
+            "I was cutting corners and breaking deals to maximize profit. That's why I failed.",
+            "When I get an idea, I am single-minded in its execution - even if it's a terrible idea.",
+            "If I can be everyone's friend, I'll always have support.",
+            "My heart wasn't in being a merchant, so I failed. I'm not all that keen on adventuring either, but I need the money."
+        ],
+        "ideals": {
+            "any": [
+                "Survival. Where there's life, there's hope. If I remain alive and flexible, I can succeed.",
+                "Redemption. Too many people consider me a failure. So I need to prove them wrong."
+            ],
+            "good": [
+                "Generosity. People helped me when I was down. Now that I'm back on my feet, I'll pay it forward."
+            ],
+            "chaotic": [
+                "Excitement. Caution got me nowhere in my previous business. I'm not going to let it hold me back now."
+            ],
+            "evil": [
+                "Wealth. With enough coin, I can buy comfort, power, knowledge, and even eternal life. Nothing will stand between me and money."
+            ],
+            "lawful": [
+                "Stability. The mercantile trade was too chaotic for me. I need a nice stable profession, like adventuring."
+            ]
+        },
+        "bonds": [
+            "My family means everything to me. I failed them before, and I must not do so again.",
+            "My church provides a connection to my god, so I must ensure that it is protected and funded.",
+            "My former business partner fell ill, and then our business failed. Part of my new venture involves earning enough to take care of their family.",
+            "If I take care of my possessions, they'll take care of me. People come and go, but a weapon or a wand is something you can always rely on.",
+            "Although my business failed, the people of my community were kind to me. I'll do everything in my power to protect them.",
+            "I owe a dangerous person a lot of money. As long as they're happy, they let my debt rest unpaid."
+        ],
+        "flaws": [
+            "Why spend gold here when you can buy the same thing for copper in the next town?",
+            "I must have the best of everything. Like, right now.",
+            "You haven't heard of me? I'm sure that's because of your ignorance and low breeding.",
+            "I failed, but I'm awesome. So when anyone else is successful, it must be because of nepotism, dishonesty, or dumb luck.",
+            "I find that most people are trustworthy. Hey, where's my belt pouch?",
+            "Nothing gets between me and danger except my fellow adventurers. So I'll be sure to put them there."
+        ]
+    },
+    "feylost": {
+        "description": "You grew up in the Feywild after disappearing from your home plane as a child. Perhaps you were spirited away by kindly Fey who thought you were destined for great things. Perhaps you stumbled through a Fey crossing by chance during a twilight stroll in the woods. Perhaps you were kidnapped by evil Fey but escaped from their clutches. Whatever the manner of your disappearance, you gradually fell under the Feywild's spell and learned a little about the nature of the mercurial tricksters that dwell there.\n\nWhen you finally returned to your home plane, you did not come back unchanged. You are haunted by the fact the Feywild-a mirror world hidden behind a mere twist of perception-is only a hair's breadth away. Although your memories of the Feywild grow fainter with each passing day, your heart swells with a mixture of fear and joy at the prospect of one day venturing back to the Plane of Faerie-your home away from home.",
+        "skill proficiencies": [
+            "deception",
+            "survival"
+        ],
+        "tool proficiencies": [
+            "one type of musical instrument"
+        ],
+        "languages": [
+            "elven gnomish goblin sylvan"
+        ],
+        "equipment": [
+            "A musical instrument (one of your choice)",
+            "A set of traveler's clothes",
+            "Three trinkets (each determind by rolling on the Feywild Trinkets table)",
+            "A pouch containing 8 gp"
+        ],
+        "additional rolls": {
+            "Fey Mark": [
+                "Your eyes swirl with iridescent colors.",
+                "You have a sweet scent, like that of nectar or honey.",
+                "You have long whiskers like those of a cat.",
+                "Your ears are covered with soft tufts of fur.",
+                "Your skin sparkles in moonlight.",
+                "Flowers either bloom or wilt (your choice) in your presence.",
+                "Your hair is made of vines or brambles and grows back to normal length within 1 hour of being cut.",
+                "You have a tail like that of a dog or another animal."
+            ],
+            "Feywild Trinkets": [
+                "Cookie cutter shaped like a unicorn",
+                "Two yew rings linked together",
+                "Silver hand mirror with a nymph-shaped handle",
+                "Painted wooden key whose teeth change configuration every day at dawn",
+                "Delicate silver cameo with pictures of twin children opposite one another",
+                "Golden pendant charm shaped like a leprechaun",
+                "Tiny wooden box containing a croquet set sized for pixies or sprites",
+                "Tiny pair of sharp, iron scissors",
+                "Chess piece shaped like a dancing satyr wearing a bishop's hat and clutching a gnarled staff",
+                "Saltshaker shaped like a wizard's tower",
+                "Crystal orb that allows an elf who holds it to sleep",
+                "Pendant that shows the phases of the moon",
+                "Large iron fingernail",
+                "Tiny electrum whistle that only Fey can hear",
+                "Wooden jigsaw puzzle piece as big as a saucer, with a painted image of a jug on it",
+                "Spool of glistening silver thread",
+                "Sheet of music that goblins find upsetting when they hear it played or sung",
+                "Rotten ogre's tooth with the Elvish glyph for \"moon\" etched into it",
+                "Vitrified eye of a displacer beast",
+                "Tiny duskwood coffin containing the ashes of a troll",
+                "Old invitation to a banquet in the Summer Court, written in ink on vellum in Sylvan",
+                "Gossamer shawl that glows faintly in moonlight",
+                "Ball-and-cup toy that plays a short, victorious jingle whenever the ball lands in the cup",
+                "Sprite's skull covered in ink fingerprints",
+                "Silver fork with the outer tines bent sideways",
+                "A soot-stained sock in which a nugget of coal magically appears each day at dawn",
+                "Tiny wooden stool (sized for a pixie or sprite) that gives splinters to those who hold it",
+                "Tiny clockwork dragonfly that slowly beats its wings (but can't fly) when wound up",
+                "Toy unicorn made of wood, painted with bright colors",
+                "Pixie plushie that sings when you squeeze it",
+                "1-inch-square painting of a sleeping elf",
+                "Thimble that helps you daydream when worn",
+                "Pumpkin cupcake that magically regenerates itself in its paper cup each day at dawn",
+                "Fake Three-Dragon Ante card depicting a faerie dragon",
+                "Teacup made from a varnished mushroom cap that magically keeps its liquid contents lukewarm",
+                "Rock that floats and is small enough to hide in your closed fist",
+                "Tiny bottle filled with rainwater collected from the Feywild",
+                "Opalescent conch shell that laughs when you hold it to your ear",
+                "Vial of viscous liquid labeled \"Fomorian spit. Do not drink!\"",
+                "Wax candle that roars and crackles like a bonfire while lit",
+                "Potted daffodil that sways when near a source of music",
+                "8-ounce, glass wine bottle that magically reassembles itself 1 minute after being broken",
+                "Tiny wooden sylph figurehead from a model ship",
+                "Tiny pumpkin-shaped cauldron carved out of bog oak",
+                "Bar of soap that smells like something memorable from your childhood",
+                "Piece of orange parchment folded to look like a knight astride a unicorn",
+                "Tinted glasses so dark that they can't be seen through",
+                "8-inch-long glass ant figurine",
+                "Piece of parchment bearing a child's drawing of an oni",
+                "Tiny hourglass without sand in it",
+                "Empty vial with corked ends at the top and bottom",
+                "Pair of green leprechaun boots tied together by their laces",
+                "Smoking pipe made from a tree root",
+                "Red cap that droops down to one's shoulders when worn",
+                "Mask that helps you remember your dreams if you wear it while you sleep",
+                "Notebook that shows what's written on it only when held upside down",
+                "Wooden top with four sides, each bearing the image of children enjoying a different season",
+                "Tiny beehive wig made for sprites or pixies",
+                "Wooden mouse figurine that squeaks when held",
+                "Stuffed oni doll with a creepy smile and one missing eye",
+                "Empty bag labeled \"Candy\"",
+                "Tinted glass monocle that makes things look green",
+                "Black executioner's hood sized for a pixie or sprite",
+                "Piano key carved from a satyr's horn",
+                "Tiny wooden lute with cat hairs for strings",
+                "Iron needle with an eye that refuses to let thread pass through it",
+                "Tiny sundial that casts a shadow only in moonlight",
+                "Wooden pan flute that attracts harmless local fauna when played",
+                "Silvered pinecone",
+                "Flask of spectral glowworms that change color to reflect the mood of the flask's holder",
+                "Wooden apple painted blue",
+                "Tuning fork that sounds the tone for the F key",
+                "Nunchaku sized for a pixie or sprite",
+                "Copper coin with a smiling satyr's face on one side and a satyr's skull on the other",
+                "Severed chicken's foot attached to a leather cord",
+                "Collection of baby teeth in a tiny wooden box",
+                "Pinwheel whirligig that spins even when there's no wind",
+                "Child's parasol covered in moss and leaves",
+                "Wooden magnifying glass missing its lens",
+                "Glossy mushroom with a red, bell-shaped cap that jingles when shook",
+                "Pouch of seeds that smell like home",
+                "Petrified robin's egg",
+                "Wooden spoon with a hole in the center",
+                "Paper wasp nest in a jar",
+                "Sprig of rosemary wrapped with ribbon at one end",
+                "Tiny, unfurnished dollhouse sized for a pixie child",
+                "Paintbrush made entirely of ceramic-even the bristles",
+                "Candlestick whose candlelight looks like a tiny, dancing fairy made of fire",
+                "Spectacle frames in the shape of butterfly wings",
+                "Set of false wooden teeth",
+                "Tiny book of fairytales",
+                "Rucksack in which one potato magically appears each day at dawn",
+                "Pixie's winter jacket lined with fox fur",
+                "Tasseled wine charm shaped like a sprite",
+                "Weak magnetic wand",
+                "100-sided die the size of a plum, cut from coal",
+                "Glass slipper, missing its mate",
+                "Tiny dreamcatcher",
+                "Barbell sized for a pixie or sprite",
+                "Music box that plays a sprightly tune you remember from your childhood"
+            ],
+            "Feywild Visitor": [
+                "Awakened creature (a Beast or an ordinary plant that has had the Awaken spell cast on it)",
+                "Centaur",
+                "Dryad",
+                "Faerie Dragon",
+                "Pixie",
+                "Satyr",
+                "Sprite",
+                "Unicorn"
+            ]
+        },
+        "feature": {
+            "name": "Feywild Connection",
+            "description": "Your mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost or need help in the Feywild."
+        },
+        "characteristics": "These tables, while optional, are well suited to Feywild-themed adventurers and are ideal for any character who has the Feylost background.",
+        "personality traits": [
+            "I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me.",
+            "Like a nomad, I can't settle down in one place for very long.",
+            "Good music makes me weep like a baby.",
+            "Wherever I go, I try to bring a little of the warmth and tranquility of home with me.",
+            "I have never lost my childlike sense of wonder.",
+            "When I have a new idea, I get wildly excited about it until I come up with another, better idea.",
+            "I live by my own set of weird and wonderful rules.",
+            "I can't bring myself to trust most adults."
+        ],
+        "ideals": {
+            "good": [
+                "Friendship. I never leave a friend behind.",
+                "Empathy. No creature should be made to suffer."
+            ],
+            "chaotic": [
+                "Wanderlust. I prefer to take the less traveled path.",
+                "Changeability. Change is good, which is why I live by an ever-changing set of rules."
+            ],
+            "lawful": [
+                "Honor. A deal is a deal, and I would never break one.",
+                "Rule of Three. Everything in the multiverse happens in threes. I see the \"rule of three\" everywhere."
+            ],
+            "evil": [
+                "Obsession. I won't let go of a grudge.",
+                "Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause."
+            ]
+        },
+        "bonds": [
+            "I would never break my word.",
+            "I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.",
+            "I do what I can to protect the natural world.",
+            "A trusted friend is the most important thing in the multiverse to me.",
+            "I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.",
+            "The Witchlight Carnival feels like home to me.",
+            "I'm drawn to the Feywild and long to return there, if only for a short while.",
+            "I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose."
+        ],
+        "flaws": [
+            "I easily lose track of time. My poor sense of time means I'm always late.",
+            "I think the whole multiverse is out to get me.",
+            "I'm always operating under a tight timeline, and I'm obsessed with keeping everything on schedule.",
+            "I'm a kleptomaniac who covets shiny, sparkling treasure.",
+            "I'm forgetful. Sometimes I can't remember even the simplest things.",
+            "I never give away anything for free and always expect something in return.",
+            "I have many vices and tend to indulge them.",
+            "I'm always changing my mind-well, almost always."
+        ]
+    },
+    "fisher": {
+        "description": "You have spent your life aboard fishing vessels or combing the shallows for the bounty of the ocean. Perhaps you were born into a family of fisher folk, working with your kin to feed your village. Maybe the job was a means to an end — a way out of an undesirable circumstance that forced you to take up life aboard a ship. Regardless of how you began, you soon fell in love with the sea, the art of fishing, and the promise of the eternal horizon.",
+        "skill proficiencies": [
+            "history",
+            "survival"
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A fishing tackle",
+            "A net",
+            "A favorite fishing lure or oiled leather wading boots",
+            "A set of traveler's clothes",
+            "A belt pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Fishing Tale": [
+                "Lobster Wrestling. You fought in hand-to-hand combat with an immense lobster.",
+                "It Dragged the Boat. You nearly caught a fish of monstrous size that pulled your boat for miles.",
+                "Fins of Pure Gold. You caught a sea animal whose fins were made of pure gold, but another fisher stole it.",
+                "Ghost Fish. You are haunted by a ghostly fish that only you can see.",
+                "Nemesis Clam. A large clam containing a pearl the size of your head claimed one of your fingers before jetting away; one day, you’ll find that clam.",
+                "It Swallowed the Sun. You once saw a fish leap from the water and turn day into night.",
+                "Dive into the Abyss. You found yourself in an underwater cave leading to the Abyss, and your luck has been sour ever since.",
+                "Love Story. You fell in love with a creature of pure water, but your brief romance ended tragically." 
+            ]
+        },
+        "feature": {
+            "name": "Harvest the Water",
+            "description": "You gain advantage on ability checks made using fishing tackle. If you have access to a body of water that sustains marine life, you can maintain a moderate lifestyle while working as a fisher, and you can catch enough food to feed yourself and up to ten other people each day."
+        },
+        "characteristics": "Fishers succeed only if they spend time at their jobs. As such, most fishers have a strong work ethic, and they admire others who earn their living honestly. Fishers tend to be superstitious, forming attachments to particular fishing lures or special fishing spots. They have a connection to the bodies of water in which they fish, and they think poorly of those whose actions adversely affect their livelihood.",
+        "personality traits": [
+            "I am unmoved by the wrath of nature.",
+            "My friends are my crew; we sink or float together.",
+            "I need long stretches of quiet to clear my head.",
+            "Rich folk don’t know the satisfaction of hard work.",
+            "I laugh heartily, feel deeply, and fear nothing.",
+            "I work hard; nature offers no handouts.",
+            "I dislike bargaining; state your price and mean it.",
+            "Luck favors me, and I take risks others might not." 
+        ],
+        "ideals": {
+            "good": [
+                "Camaraderie. Good people make even the longest voyage bearable."
+            ],
+            "lawful": [
+                "Luck. Our luck depends on respecting its rules — now throw this salt over your shoulder."
+            ],
+            "chaotic": [
+                "Daring. The richest bounty goes to those who risk everything."
+            ],
+            "evil": [
+                "Plunder. Take all that you can and leave nothing for the scavengers."
+            ],
+            "neutral": [
+                "Balance. Do not fish the same spot twice in a row; suppress your greed, and nature will reward you."
+            ],
+            "any": [
+                "Hard Work. No wave can move a soul hard at work."
+            ]
+        },
+        "bonds": [
+            "I lost something important in the deep sea, and I intend to find it.",
+            "Someone else’s greed destroyed my livelihood, and I will be compensated.",
+            "I will fish the many famous waters of this land.",
+            "The gods saved me during a terrible storm, and I will honor their gift.",
+            "My destiny awaits me at the bottom of a particular pond in the Feywild.",
+            "I must repay my village’s debt." 
+        ],
+        "flaws": [
+            "I am judgmental, especially of those I deem homebodies or otherwise lazy.",
+            "I become depressed and anxious if I’m away from the sea too long.",
+            "I have lived a hard life and find it difficult to empathize with others.",
+            "I am inclined to tell long-winded stories at inopportune times.",
+            "I work hard, but I play harder.",
+            "I am obsessed with catching an elusive aquatic beast, often to the detriment of other pursuits." 
+        ]
+    },
     "folk hero": {
         "description": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.",
         "skill proficiencies": [
@@ -728,6 +1313,9 @@
         "tool proficiencies": [
             "one type of artisan's tools",
             "vehicles (land)"
+        ],
+        "languages": [
+            
         ],
         "equipment": [
             "A set of artisan's tools (one of your choice)",
@@ -802,36 +1390,2107 @@
             "I have trouble trusting in my allies."
         ]
     },
-    "background template": {
-        "description": "",
+    "gambler": {
+        "description": "All you need to make a lot of gold is a little gold. Except at those times when all you need to have no gold at all is a little gold. Whether you're a good gambler or a bad one rarely matters, because no one can divine the whims of Lady Luck. Sometimes you're up, sometimes you're down. But the thing about gambling is that someone is always willing to take a bet.",
         "skill proficiencies": [
-            
+            "deception",
+            "insight"
         ],
         "tool proficiencies": [
-            
+            "one type of gaming set"
+        ],
+        "languages": [
+            "*"
         ],
         "equipment": [
-            
+            "One gaming set",
+            "A lucky charm",
+            "A set of fine clothes",
+            "A belt pouch containing 15 gp"
         ],
         "additional rolls": {
             
         },
         "feature": {
-            "name": "",
-            "description": ""
+            "name": "Never Tell Me The Odds",
+            "description": "Odds and probability are your bread and butter. During downtime activities that involve games of chance or figuring odds on the best plan, you can get a solid sense of which choice is likely the best one and which opportunities seem too good to be true, at the DM's determination."
+        },
+        "characteristics": "Some gamble out of necessity. Others do so out of boredom. Still others become addicted to the thrill of winning or losing everything on a turn of fortune. For some, gambling is less a matter of chance and more a matter of seeking every advantage to ensure the outcome. The best gamblers can lose everything, and the worst gamblers sometimes win. Regardless, you can always tell gamblers by the look in their eyes. Lady Luck haunts them.",
+        "personality traits": [
+            "I plan for every contingency. Leave nothing to chance!",
+            "Every copper wants to be a silver. Each bet is an opportunity.",
+            "I'm one of Lady Luck's favored. Anything I try is destined to succeed.",
+            "I've lost so much to gambling that I refuse to spend money on anything anymore.",
+            "Nothing is certain. Planning is a coward's act.",
+            "I can't be sure who I've swindled, cheated, or defeated, so I keep a low profile in public.",
+            "The perfect bet is out there somewhere. I just have to keep my eyes open.",
+            "I have beaten my addiction, but all it takes is one weak moment and I'll be back at the card table." 
+        ],
+        "ideals": {
+            "any": [
+                "Knowledge. Knowledge is power, and knowing which horse to back is the key to success.",
+                "Survival. You can't win if you're dead. Live to fight another day - when the odds might be more in your favor."
+            ],
+            "lawful": [
+                "Fate. Whatever happens is fated, regardless of any planning or striving."
+            ],
+            "chaotic": [
+                "Bravery. If you want to succeed, you have to take risks."
+            ],
+            "good": [
+                "Reliability. When I was in need, I was able to rely on others. Now I want to be the one others rely on."
+            ],
+            "evil": [
+                "Victory. Winning is the real measure of a person. In the end, the only thing that matters is the scoreboard."
+            ]
+        },
+        "bonds": [
+            "One person in particular owes me a lot of money, and I need to keep them alive if I want to be repaid.",
+            "I'm loyal to the friend or family member who taught me how to gamble.",
+            "The person who saved me from my gambling addiction is the only reason I'm alive today.",
+            "A patron once fronted me money in exchange for a percentage of my winnings. I owe them a debt of gratitude. And a lot of cash.",
+            "A criminal syndicate I once played for isn't happy I left the game, and its enforcers are looking for me.",
+            "Urchins once helped me find marks for my games. Now I'm driven to help them escape the streets." 
+        ],
+        "flaws": [
+            "I don't know when to quit. Especially when everyone else is telling me to.",
+            "I save my sympathy for my friends, and I have no friends.",
+            "You think we're in trouble now? Let me tell you how bad things are likely to get!",
+            "You can loan me a little, right? I've got a sure thing. I'll double your money, guaranteed.",
+            "I was once a terribly flawed person, like you. Let me tell you how you can save yourself.",
+            "I'm a great gambler. I'm just bad at math and logic." 
+        ]
+    },
+    "gladiator": {
+        "description": "A gladiator is as much an entertainer as any minstrel or circus performer, trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor.",
+        "skill proficiencies": [
+            "acrobatics",
+            "performance"
+        ],
+        "tool proficiencies": [
+            "disguise kit",
+            "one type of musical instrument"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "An inexpensive but unusual weapon or a musical instrument (one of your choice)",
+            "The favor of an admirer (love letter, lock of hair, or trinket)",
+            "A costume",
+            "A pouch containing 15 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "By Popular Demand",
+            "description": "You can always find a place to perform in any place that features combat for entertainment — perhaps a gladiatorial arena or secret pit fighting club. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+        },
+        "characteristics": "Successful entertainers have to be able to capture and hold an audience’s attention, so they tend to have flamboyant or forceful personalities. They’re inclined toward the romantic and often cling to high-minded ideals about the practice of art and the appreciation of beauty.",
+        "personality traits": [
+            "I know a story relevant to almost every situation.",
+            "Whenever I come to a new place, I collect local rumors and spread gossip.",
+            "I'm a hopeless romantic, always searching for that \"special someone.\"",
+            "Nobody stays angry at me or around me for long, since I can defuse any amount of tension.",
+            "I love a good insult, even one directed at me.",
+            "I get bitter if I'm not the center of attention.",
+            "I'll settle for nothing less than perfection.",
+            "I change my mood or my mind as quickly as I change key in a song."
+        ],
+        "ideals": {
+            "good": [
+                "Beauty. When I perform, I make the world better than it was."
+            ],
+            "lawful": [
+                "Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are."
+            ],
+            "chaotic": [
+                "Creativity. The world is in need of new ideas and bold action."
+            ],
+            "evil": [
+                "Greed. I'm only in it for the money and fame."
+            ],
+            "neutral": [
+                "People. I like seeing the smiles on people's faces when I perform. That's all that matters."
+            ],
+            "any": [
+                "Honesty. Art should reflect the soul; it should come from within and reveal who we really are."
+            ]
+        },
+        "bonds": [
+            "My instrument is my most treasured possession, and it reminds me of someone I love.",
+            "Someone stole my precious instrument, and someday I'll get it back.",
+            "I want to be famous, whatever it takes.",
+            "I idolize a hero of the old tales and measure my deeds against that person's.",
+            "I will do anything to prove myself superior to my hated rival.",
+            "I would do anything for the other members of my old troupe."
+        ],
+        "flaws": [
+            "I'll do anything to win fame and renown.",
+            "I'm a sucker for a pretty face.",
+            "A scandal prevents me from ever going home again.",
+            "I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.",
+            "I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.",
+            "Despite my best efforts, I am unreliable to my friends."
+        ]
+    },
+    "guild artisan / guild merchant": {
+        "description": "You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.\nVariant: Guild Merchant\nInstead of an artisans’ guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don’t craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant’s life lends itself to adventure far more than the life of an artisan.\n\nRather than proficiency with artisan’s tools, you might be proficient with navigator’s tools or an additional language. And instead of artisan’s tools, you can start with a mule and a cart.",
+        "skill proficiencies": [
+            "insight",
+            "persuasion"
+        ],
+        "tool proficiencies": [
+            "one type of artisan's tools"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A set of artisan's tools (one of your choice)",
+            "A letter of introduction from your guild",
+            "A set of traveler's clothes",
+            "A pouch containing 15 gp"
+        ],
+        "additional rolls": {
+            "Guild Business": [
+                "Alchemists and apothecaries",
+                "Armorers, locksmiths, and finesmiths",
+                "Brewers, distillers, and vintners",
+                "Calligraphers, scribes, and scriveners",
+                "Carpenters, roofers, and plasterers",
+                "Cartographers, surveyors, and chart-makers",
+                "Cobblers and shoemakers",
+                "Cooks and bakers",
+                "Glassblowers and glaziers",
+                "Jewelers and gem cutters",
+                "Leatherworkers, skinners, and tanners",
+                "Masons and stonecutters",
+                "Painters, limners, and sign-makers",
+                "Potters and tile-makers",
+                "Shipwrights and sailmakers",
+                "Smiths and metal-forgers",
+                "Tinkers, pewterers, and casters",
+                "Wagon-makers and wheelwrights",
+                "Weavers and dyers",
+                "Woodcarvers, coopers, and bowyers"
+            ]
+        },
+        "feature": {
+            "name": "Guild Membership",
+            "description": "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.\n\nGuilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild’s coffers.\n\nYou must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild’s good graces."
+        },
+        "characteristics": "Guild artisans are among the most ordinary people in the world — until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they’re vulnerable to sins of greed and covetousness.",
+        "personality traits": [
+            "I believe that anything worth doing is worth doing right. I can’t help it — I’m a perfectionist.",
+            "I’m a snob who looks down on those who can’t appreciate fine art.",
+            "I always want to know how things work and what makes people tick.",
+            "I’m full of witty aphorisms and have a proverb for every occasion.",
+            "I’m rude to people who lack my commitment to hard work and fair play.",
+            "I like to talk at length about my profession.",
+            "I don’t part with my money easily and will haggle tirelessly to get the best deal possible.",
+            "I’m well known for my work, and I want to make sure everyone appreciates it. I’m always taken aback when people haven’t heard of me."
+        ],
+        "ideals": {
+            "any": [
+                "Aspiration. I work hard to be the best there is at my craft."
+            ],
+            "lawful": [
+                "Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization."
+            ],
+            "good": [
+                "Generosity. My talents were given to me so that I could use them to benefit the world."
+            ],
+            "chaotic": [
+                "Freedom. Everyone should be free to pursue his or her own livelihood."
+            ],
+            "evil": [
+                "Greed. I'm only in it for the money."
+            ],
+            "neutral": [
+                "People. I'm committed to the people I care about, not to ideals."
+            ]
+        },
+        "bonds": [
+            "The workshop where I learned my trade is the most important place in the world to me.",
+            "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.",
+            "I owe my guild a great debt for forging me into the person I am today.",
+            "I pursue wealth to secure someone's love.",
+            "One day I will return to my guild and prove that I am the greatest artistan of them all.",
+            "I will get revenge on the evil forces that derstroyed my place of business and ruined my livelihood."
+        ],
+        "flaws": [
+            "I'm never satisfied with what I have—I always want more.",
+            "I'll do anything to get my hands on something rare or priceless.",
+            "I'm quick to assume that someone is trying to cheat me.",
+            "No one must ever learn that I once stole money from guild coffers.",
+            "I would kill to acquire a noble title.",
+            "I'm horribly jealous of anyoned who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+        ]
+    },
+    "haunted one": {
+        "description": "You are haunted by something so terrible that you dare not speak of it. You’ve tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you can’t be slain with a sword or banished with a spell. It might come to you as a shadow on the wall, a bloodcurdling nightmare, a memory that refuses to die, or a demonic whisper in the dark. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.",
+        "skill proficiencies": [
+            "arcana|investigation|religion|survival",
+            "arcana|investigation|religion|survival"
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "languages": [
+            "abyssal celestial deepSpeech draconic infernal primordial sylvan undercommon",
+            "*"
+        ],
+        "equipment": [
+            "A monster hunter's pack (containing a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a flask of holy water, a set of manacles, a steel mirror, a flask of oil, a tinderbox, and 3 torches)",
+            "One trinket of special significance (choose one or roll on the Horror Trinkets table after this background)",
+            "A set of common clothes",
+            "1 sp"
+        ],
+        "additional rolls": {
+            "Harrowing Event": [
+                "A monster that slaughtered dozens of innocent people spared your life, and you don’t know why.",
+                "You were born under a dark star. You can feel it watching you, coldly and distantly. Sometimes it beckons you in the dead of night.",
+                "An apparition that has haunted your family for generations now haunts you. You don’t know what it wants, and it won’t leave you alone.",
+                "Your family has a history of practicing the dark arts. You dabbled once and felt something horrible clutch at your soul, whereupon you fled in terror.",
+                "An oni took your sibling one cold, dark night, and you were unable to stop it.",
+                "You were cursed with lycanthropy and later cured. You are now haunted by the innocents you slaughtered.",
+                "A hag kidnapped and raised you. You escaped, but the hag still has a magical hold over you and fills your mind with evil thoughts.",
+                "You opened an eldritch tome and saw things unfit for a sane mind. You burned the book, but its words and images are burned into your psyche.",
+                "A fiend possessed you as a child. You were locked away but escaped. The fiend is still inside you, but now you try to keep it locked away.",
+                "You did terrible things to avenge the murder of someone you loved. You became a monster, and it haunts your waking dreams."
+            ],
+            "Horror Trinkets": [
+            "A picture you drew as a child of your imaginary friend",
+            "A lock that opens when blood is dripped in its keyhole",
+            "Clothes stolen from a scarecrow",
+            "A spinning top carved with four faces: happy, sad, wrathful, and dead",
+            "The necklace of a sibling who died on the day you were born",
+            "A wig from someone executed by beheading",
+            "The unopened letter to you from your dying father",
+            "A pocket watch that runs backward for an hour every midnight",
+            "A winter coat stolen from a dying soldier",
+            "A bottle of invisible ink that can only be read at sunset",
+            "A wineskin that refills when interred with a dead person for a night",
+            "A set of silverware used by a king for his last meal",
+            "A spyglass that always shows the world suffering a terrible storm",
+            "A cameo with the profile’s face scratched away",
+            "A lantern with a black candle that never runs out and that burns with green flame",
+            "A teacup from a child’s tea set, stained with blood",
+            "A little black book that records your dreams, and yours alone, when you sleep",
+            "A necklace formed of the interlinked holy symbols of a dozen deities",
+            "A noose that feels heavier than it should",
+            "A birdcage into which small birds fly but once inside never eat or leave",
+            "A lepidopterist’s box filled with dead moths with skull-like patterns on their wings",
+            "A jar of pickled ghouls’ tongues",
+            "The wooden hand of a notorious pirate",
+            "A urn with the ashes of a dead relative",
+            "A hand mirror backed with a bronze depiction of a medusa",
+            "Pallid leather gloves crafted with ivory fingernails",
+            "Dice made from the knuckles of a notorious charlatan",
+            "A ring of keys for forgotten locks",
+            "Nails from the coffin of a murderer",
+            "A key to the family crypt",
+            "A bouquet of funerary flowers that always looks and smells fresh",
+            "A switch used to discipline you as a child",
+            "A music box that plays by itself whenever someone holding it dances",
+            "A walking cane with an iron ferrule that strikes sparks on stone",
+            "A flag from a ship lost at sea",
+            "A porcelain doll’s head that always seems to be looking at you",
+            "A wolf’s head wrought in silver that is also a whistle",
+            "A small mirror that shows a much older version of the viewer",
+            "A small, worn book of children’s nursery rhymes",
+            "A mummified raven claw",
+            "A broken pendant of a silver dragon that’s always cold to the touch",
+            "A small locked box that quietly hums a lovely melody at night, but you always forget it in the morning",
+            "An inkwell that makes one a little nauseous when staring at it",
+            "An old doll made from a dark, dense wood and missing a hand and a foot",
+            "A black executioner’s hood",
+            "A pouch made of flesh, with a sinew drawstring",
+            "A tiny spool of black thread that never runs out",
+            "A tiny clockwork figurine of a dancer that’s missing a gear and doesn’t work",
+            "A black wooden pipe that creates puffs of smoke that look like skulls",
+            "A vial of perfume, the scent of which only certain creatures can detect",
+            "A stone that emits a single endless sigh",
+            "A rag doll with two red dots on its neck",
+            "A spring-loaded toy with a missing crank",
+            "A mason jar containing a harmless but agitated, animate ooze",
+            "A black wooden die with ",
+            "’s on all the faces",
+            "A child’s portrait with “born” written on the back, along with next year’s date",
+            "A dagger-sized shark tooth",
+            "A finger that’s taken root in a small pot",
+            "A toolbox containing the remains of a dangerous but broken clockwork arachnid",
+            "A pitcher-sized, opalescent snail shell that occasionally, inexplicably shudders or tips over",
+            "The logbook of an ice-breaking ship called <em>The Haifisch</em>",
+            "A small portrait of you as a child, alongside your identically dressed twin",
+            "A silver pocket watch with thirteen hours marked on the face",
+            "A woodcut of a wolf devouring its own hind leg",
+            "A planchette etched with raven skulls",
+            "A moist coral figurine of a lamprey with arms, legs, and a bipedal stance",
+            "A bronze fingertrap sculpted with roaring tigers",
+            "A pearl necklace that turns red under the full moon",
+            "A fossil of a fish with humanoid features",
+            "A plague doctor’s mask",
+            "A paper talisman with smudged ink",
+            "A locket containing the smeared image of an eyeless figure",
+            "A canopic jar with a lid sculpted like a goat",
+            "A jack-o’-lantern made from a small, pale gourd",
+            "A single high-heeled, iron shoe",
+            "A candle made from a severed hand",
+            "A clockwork device that beats like a heart",
+            "A blank masquerade mask",
+            "A glass eye with a live worm inside",
+            "A sheet with two eyeholes cut in it",
+            "The deed to someplace called Tergeron Manor",
+            "An ornate, wax-sealed crimson envelope that resists all attempts to open it",
+            "A mourning veil trimmed in black lace",
+            "A straitjacket covered in charcoal runes",
+            "A tattered, burlap mask with a crooked smile painted on it",
+            "A green ribbon designed to be worn as a choker",
+            "Dentures with mismatched, sharpened teeth",
+            "A warm, fist-sized egg case",
+            "A copper ring with “mine” engraved on the inside",
+            "A glass ampoule containing a neon green fluid",
+            "An eye patch embroidered with a holy symbol",
+            "A severed big toe with a nail that continues to grow",
+            "A journal that has been heavily redacted",
+            "A glove with a mouth-like design stitched on the palm",
+            "An ornate but empty reliquary made of silver and fractured glass",
+            "A ceramic figure of a cat with too many eyes",
+            "A crumpled paper ticket bearing the words “admit none”",
+            "An electrum coin with your face on one side",
+            "A shrunken gremishka head that twitches when anyone casts magic nearby",
+            "A sunburst amulet with a red stone at the center"
+            ]
+        },
+        "feature": {
+            "name": "Heart of Darkness",
+            "description": "Those who look into your eyes can see that you have faced unimaginable horror and that you are no stranger to darkness. Though they might fear you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they will even take up arms to fight alongside you, should you find yourself facing an enemy alone."
         },
         "characteristics": "",
         "personality traits": [
-            
+            "I don’t run from evil. Evil runs from me.",
+            "I like to read and memorize poetry. It keeps me calm and brings me fleeting moments of happiness.",
+            "I spend money freely and live life to the fullest, knowing that tomorrow I might die.",
+            "I live for the thrill of the hunt.",
+            "I don’t talk about the thing that torments me. I’d rather not burden others with my curse.",
+            "I expect danger around every corner.",
+            "I refuse to become a victim, and I will not allow others to be victimized.",
+            "I put no trust in divine beings."
         ],
         "ideals": {
-            
+            "good": [
+                "I try to help those in need, no matter what the personal cost.",
+                "I kill monsters to make the world a safer place, and to exorcise my own demons."
+            ],
+            "any": [
+                "I’ll stop the spirits that haunt me or die trying."
+            ],
+            "chaotic": [
+                "I have a dark calling that puts me above the law."
+            ],
+            "lawful": [
+                "I like to know my enemy’s capabilities and weaknesses before rushing into battle."
+            ],
+            "evil": [
+                "I’m a monster that destroys other monsters, and anything else that gets in my way."
+            ]
         },
         "bonds": [
-            
+            "I keep my thoughts and discoveries in a journal. My journal is my legacy.",
+            "I would sacrifice my life and my soul to protect the innocent.",
+            "My torment drove away the person I love. I strive to win back the love I’ve lost.",
+            "A terrible guilt consumes me. I hope that I can find redemption through my actions.",
+            "There’s evil in me, I can feel it. It must never be set free.",
+            "I have a child to protect. I must make the world a safer place for him (or her)."
         ],
         "flaws": [
+            "I have certain rituals that I must follow every day. I can never break them.",
+            "I assume the worst in people.",
+            "I feel no compassion for the dead. They’re the lucky ones.",
+            "I have an addiction.",
+            "I am a purveyor of doom and gloom who lives in a world without hope.",
+            "I talk to spirits that no one else can see."
+        ]
+    },
+    "hermit": {
+        "description": "You lived in seclusion — either in a sheltered community such as a monastery, or entirely alone — for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for.",
+        "skill proficiencies": [
+            "medicine",
+            "religion"
+        ],
+        "tool proficiencies": [
+            "herbalism kit"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A scroll case stuffed full of notes from your studies or prayers.",
+            "A winter blanket",
+            "A set of common clothes",
+            "An herbalism kit",
+            "5 gp"
+        ],
+        "additional rolls": {
+            "Life of Seclusion": [
+                "I was searching for spiritual enlightenment.",
+                "I was partaking of communal living in accordance with the dictates of a religious order.",
+                "I was exiled for a crime I didn’t commit.",
+                "I retreated from society after a life-altering event.",
+                "I needed a quiet place to work on my art, literature, music, or manifesto.",
+                "I needed to commune with nature, far from civilization.",
+                "I was the caretaker of an ancient ruin or relic.",
+                "I was a pilgrim in search of a person, place, or relic of spiritual significance."
+            ]
+        },
+        "feature": {
+            "name": "Discovery",
+            "description": "The quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. It might be information that would be damaging to the people who consigned you to exile, and hence the reason for your return to society.\n\nWork with your DM to determine the details of your discovery and its impact on the campaign."
+        },
+        "characteristics": "Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. A few are driven slightly mad by their years apart from society.",
+        "personality traits": [
+            "I’ve been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.",
+            "I am utterly serene, even in the face of disaster.",
+            "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom.",
+            "I feel tremendous empathy for all who suffer.",
+            "I’m oblivious to etiquette and social expectations.",
+            "I connect everything that happens to me to a grand, cosmic plan.",
+            "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.",
+            "I am working on a grand philosophical theory and love sharing my ideas."
+        ],
+        "ideals": {
+            "good": [
+                "Greater Good. My gifts are meant to be shared with all, not used for my own benefit."
+            ],
+            "lawful": [
+                "Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking."
+            ],
+            "chaotic": [
+                "Free Thinking. Inquiry and curiosity are the pillars of progress."
+            ],
+            "evil": [
+                "Power. Solitude and contemplation are paths toward mystical or magical power."
+            ],
+            "neutral": [
+                "Live and Let Live. Meddling in the affairs of others only causes trouble."
+            ],
+            "any": [
+                "Self-Knowledge. If you know yourself, there’s nothing left to know."
+            ]
+        },
+        "bonds": [
+            "Nothing is more important than the other members of my hermitage, order, or association.",
+            "I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.",
+            "I’m still seeking the enlightenment I pursued in my seclusion, and it still eludes me.",
+            "I entered seclusion because I loved someone I could not have.",
+            "Should my discovery come to light, it could bring ruin to the world.",
+            "My isolation gave me great insight into a great evil that only I can destroy."
+        ],
+        "flaws": [
+            "Now that I’ve returned to the world, I enjoy its delights a little too much.",
+            "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.",
+            "I am dogmatic in my thoughts and philosophy.",
+            "I let my need to win arguments overshadow friendships and harmony.",
+            "I’d risk too much to uncover a lost bit of knowledge.",
+            "I like keeping secrets and won’t share them with anyone."
+        ]
+    },
+    "inheritor": {
+        "description": "You are the heir to something of great value — not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you — by force, if need be.",
+        "skill proficiencies": [
+            "survival",
+            "arcana|history|religion"
+        ],
+        "tool proficiencies": [
+            "Your choice of a gaming set or a musical instrument"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "Your inheritance",
+            "A set of traveler's clothes",
+            "The tool you chose for your background's tool proficiency",
+            "A pouch containing 15 gp"
+        ],
+        "additional rolls": {
+            "Inheritance": [
+                "A document such as a map, a letter, or a journal",
+                "A trinket",
+                "A trinket",
+                "An article of clothing",
+                "A piece of jewelry",
+                "An arcane book or formulary",
+                "A written story, song, poem, or secret",
+                "A tattoo or other body marking"
+            ]
+        },
+        "feature": {
+            "name": "Inheritance",
+            "description": "Choose or randomly determine your inheritance from among the possibilities in the table below. Work with your Dungeon Master to come up with details: Why is your inheritance so important, and what is its full story? You might prefer for the DM to invent these details as part of the game, allowing you to learn more about your inheritance as your character does.\n\nThe Dungeon Master is free to use your inheritance as a story hook, sending you on quests to learn more about its history or true nature, or confronting you with foes who want to claim it for themselves or prevent you from learning what you seek. The DM also determines the properties of your inheritance and how they figure into the item’s history and importance. For instance, the object might be a minor magic item, or one that begins with a modest ability and increases in potency with the passage of time. Or, the true nature of your inheritance might not be apparent at first and is revealed only when certain conditions are met.\n\nWhen you begin your adventuring career, you can decide whether to tell your companions about your inheritance right away. Rather than attracting attention to yourself, you might want to keep your inheritance a secret until you learn more about what it means to you and what it can do for you."
+        },
+        "characteristics": "Use the tables for the folk hero background below as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as an inheritor.\n\nYour bond might be directly related to your inheritance, or to the person from whom you received it. Your ideal might be influenced by what you know about your inheritance, or by what you intend to do with your gift once you realize what it is capable of.",
+        "personality traits": [
+            "I judge people by their actions, not their words.",
+            "If someone is in trouble, I’m always ready to lend help.",
+            "When I set my mind to something, I follow through no matter what gets in my way.",
+            "I have a strong sense of fair play and always try to find the most equitable solution to arguments.",
+            "I’m confident in my own abilities and do what I can to instill confidence in others.",
+            "Thinking is for other people. I prefer action.",
+            "I misuse long words in an attempt to sound smarter.",
+            "I get bored easily. When am I going to get on with my destiny?"
+        ],
+        "ideals": {
+            "good": [
+                "Respect. People deserve to be treated with dignity and respect."
+            ],
+            "lawful": [
+                "Fairness. No one should get preferential treatment before the law, and no one is above the law."
+            ],
+            "chaotic": [
+                "Freedom. Tyrants must not be allowed to oppress the people."
+            ],
+            "evil": [
+                "Might. If I become strong, I can take what I want—what I deserve."
+            ],
+            "neutral": [
+                "Sincerity. There’s no good in pretending to be something I’m not."
+            ],
+            "any": [
+                "Destiny. Nothing and no one can steer me away from my higher calling."
+            ]
+        },
+        "bonds": [
+            "I have a family, but I have no idea where they are. One day, I hope to see them again.",
+            "I worked the land, I love the land, and I will protect the land.",
+            "A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.",
+            "My tools are symbols of my past life, and I carry them so that I will never forget my roots.",
+            "I protect those who cannot protect themselves.",
+            "I wish my childhood sweetheart had come with me to pursue my destiny."
+        ],
+        "flaws": [
+            "The tyrant who rules my land will stop at nothing to see me killed.",
+            "I’m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.",
+            "The people who knew me when I was young know my shameful secret, so I can never go home again.",
+            "I have a weakness for the vices of the city, especially hard drink.",
+            "Secretly, I believe that things would be better if I were a tyrant lording over the land.",
+            "I have trouble trusting in my allies."
+        ]
+    },
+    "investigator": {
+        "description": "You relentlessly seek the truth. Perhaps you're motivated by belief in the law and a sense of universal justice, or maybe that very law has failed you and you seek to make things right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you're a detective for hire, uncovering secrets for well-paying clients. Whether the mysteries you're embroiled in are local crimes or realm-spanning conspiracies, you're driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows.",
+        "skill proficiencies": [
+            "insight|investigation|perception",
+            "insight|investigation|perception"
+        ],
+        "tool proficiencies": [
+            "disguise kit",
+            "thieves' tools"
+        ],
+        "languages": [
             
+        ],
+        "equipment": [
+            "A magnifying glass",
+            "Evidence from a past case (choose one or roll for a trinket from the horror trinkets table)",
+            "A set of common clothes",
+            "10 gp"
+        ],
+        "additional rolls": {
+            "First Case": [
+                "A friend was wrongfully accused of murder. You tracked down the actual killer, proving your friend's innocence and starting your career as a detective.",
+                "You're told you went missing for weeks. When you were found, you had no memory of being gone. Now you search to discover what happened to you.",
+                "You helped a spirit find peace by finding its missing corpse. Ever since, other spectral clients have sought you out to help them find rest.",
+                "You revealed that the monsters terrorizing your home were illusions created by a cruel mage. The magic-user escaped, but you've continued to uncover magical hoaxes.",
+                "You were wrongfully accused and convicted of a crime. You managed to escape and seek to help others avoid the experience you suffered, even while still being pursued by the law.",
+                "You survived the destructive use of a magic device that wiped out your home. Members of a secret organization found you. You now work with them, tracking down dangerous supernatural phenomena and preventing them from doing harm.",
+                "You found evidence of a conspiracy underpinning society. You tried to expose this mysterious cabal, but no one believed you. You're still trying to prove what you know is true.",
+                "You got a job with an agency that investigates crimes that local law enforcement can't solve. You often wonder which you value more, the truth or your pay."
+            ],
+            "Horror Trinkets": [
+                "A picture you drew as a child of your imaginary friend",
+                "A lock that opens when blood is dripped in its keyhole",
+                "Clothes stolen from a scarecrow",
+                "A spinning top carved with four faces: happy, sad, wrathful, and dead",
+                "The necklace of a sibling who died on the day you were born",
+                "A wig from someone executed by beheading",
+                "The unopened letter to you from your dying father",
+                "A pocket watch that runs backward for an hour every midnight",
+                "A winter coat stolen from a dying soldier",
+                "A bottle of invisible ink that can only be read at sunset",
+                "A wineskin that refills when interred with a dead person for a night",
+                "A set of silverware used by a king for his last meal",
+                "A spyglass that always shows the world suffering a terrible storm",
+                "A cameo with the profile’s face scratched away",
+                "A lantern with a black candle that never runs out and that burns with green flame",
+                "A teacup from a child’s tea set, stained with blood",
+                "A little black book that records your dreams, and yours alone, when you sleep",
+                "A necklace formed of the interlinked holy symbols of a dozen deities",
+                "A noose that feels heavier than it should",
+                "A birdcage into which small birds fly but once inside never eat or leave",
+                "A lepidopterist’s box filled with dead moths with skull-like patterns on their wings",
+                "A jar of pickled ghouls’ tongues",
+                "The wooden hand of a notorious pirate",
+                "A urn with the ashes of a dead relative",
+                "A hand mirror backed with a bronze depiction of a medusa",
+                "Pallid leather gloves crafted with ivory fingernails",
+                "Dice made from the knuckles of a notorious charlatan",
+                "A ring of keys for forgotten locks",
+                "Nails from the coffin of a murderer",
+                "A key to the family crypt",
+                "A bouquet of funerary flowers that always looks and smells fresh",
+                "A switch used to discipline you as a child",
+                "A music box that plays by itself whenever someone holding it dances",
+                "A walking cane with an iron ferrule that strikes sparks on stone",
+                "A flag from a ship lost at sea",
+                "A porcelain doll’s head that always seems to be looking at you",
+                "A wolf’s head wrought in silver that is also a whistle",
+                "A small mirror that shows a much older version of the viewer",
+                "A small, worn book of children’s nursery rhymes",
+                "A mummified raven claw",
+                "A broken pendant of a silver dragon that’s always cold to the touch",
+                "A small locked box that quietly hums a lovely melody at night, but you always forget it in the morning",
+                "An inkwell that makes one a little nauseous when staring at it",
+                "An old doll made from a dark, dense wood and missing a hand and a foot",
+                "A black executioner’s hood",
+                "A pouch made of flesh, with a sinew drawstring",
+                "A tiny spool of black thread that never runs out",
+                "A tiny clockwork figurine of a dancer that’s missing a gear and doesn’t work",
+                "A black wooden pipe that creates puffs of smoke that look like skulls",
+                "A vial of perfume, the scent of which only certain creatures can detect",
+                "A stone that emits a single endless sigh",
+                "A rag doll with two red dots on its neck",
+                "A spring-loaded toy with a missing crank",
+                "A mason jar containing a harmless but agitated, animate ooze",
+                "A black wooden die with ",
+                "’s on all the faces",
+                "A child’s portrait with “born” written on the back, along with next year’s date",
+                "A dagger-sized shark tooth",
+                "A finger that’s taken root in a small pot",
+                "A toolbox containing the remains of a dangerous but broken clockwork arachnid",
+                "A pitcher-sized, opalescent snail shell that occasionally, inexplicably shudders or tips over",
+                "The logbook of an ice-breaking ship called <em>The Haifisch</em>",
+                "A small portrait of you as a child, alongside your identically dressed twin",
+                "A silver pocket watch with thirteen hours marked on the face",
+                "A woodcut of a wolf devouring its own hind leg",
+                "A planchette etched with raven skulls",
+                "A moist coral figurine of a lamprey with arms, legs, and a bipedal stance",
+                "A bronze fingertrap sculpted with roaring tigers",
+                "A pearl necklace that turns red under the full moon",
+                "A fossil of a fish with humanoid features",
+                "A plague doctor’s mask",
+                "A paper talisman with smudged ink",
+                "A locket containing the smeared image of an eyeless figure",
+                "A canopic jar with a lid sculpted like a goat",
+                "A jack-o’-lantern made from a small, pale gourd",
+                "A single high-heeled, iron shoe",
+                "A candle made from a severed hand",
+                "A clockwork device that beats like a heart",
+                "A blank masquerade mask",
+                "A glass eye with a live worm inside",
+                "A sheet with two eyeholes cut in it",
+                "The deed to someplace called Tergeron Manor",
+                "An ornate, wax-sealed crimson envelope that resists all attempts to open it",
+                "A mourning veil trimmed in black lace",
+                "A straitjacket covered in charcoal runes",
+                "A tattered, burlap mask with a crooked smile painted on it",
+                "A green ribbon designed to be worn as a choker",
+                "Dentures with mismatched, sharpened teeth",
+                "A warm, fist-sized egg case",
+                "A copper ring with “mine” engraved on the inside",
+                "A glass ampoule containing a neon green fluid",
+                "An eye patch embroidered with a holy symbol",
+                "A severed big toe with a nail that continues to grow",
+                "A journal that has been heavily redacted",
+                "A glove with a mouth-like design stitched on the palm",
+                "An ornate but empty reliquary made of silver and fractured glass",
+                "A ceramic figure of a cat with too many eyes",
+                "A crumpled paper ticket bearing the words “admit none”",
+                "An electrum coin with your face on one side",
+                "A shrunken gremishka head that twitches when anyone casts magic nearby",
+                "A sunburst amulet with a red stone at the center"
+            ]
+        },
+        "feature": {
+            "name": "Official Inquiry",
+            "description": "You're experienced at gaining access to people and places to get the information you need. Through a combination of fast-talking, determination, and official-looking documentation, you can gain access to a place or an individual related to a crime you're investigating. Those who aren't involved in your investigation avoid impeding you or pass along your requests. Additionally, local law enforcement has firm opinions about you, viewing you as either a nuisance or one of their own."
+        },
+        "characteristics": "",
+        "personality traits": [
+            "Personality traits are unavailable for this background."
+        ],
+        "ideals": {
+            "any": [
+                "Ideals are unavailable for this background."
+            ]
+        },
+        "bonds": [
+            "Bonds are unavailable for this background."
+        ],
+        "flaws": [
+            "Flaws are unavailable for this background."
+        ]
+    },
+    "knight": {
+        "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them.\n\nWork with your DM to come up with an appropriate title and determine how much authority that title carries. A noble title doesn’t stand on its own—it’s connected to an entire family, and whatever title you hold, you will pass it down to your own children. Not only do you need to determine your noble title, but you should also work with the DM to describe your family and their influence on you.\n\nIs your family old and established, or was your title only recently bestowed? How much influence do they wield, and over what area? What kind of reputation does your family have among the other aristocrats of the region? How do the common people regard them?\n\nWhat’s your position in the family? Are you the heir to the head of the family? Have you already inherited the title? How do you feel about that responsibility? Or are you so far down the line of inheritance that no one cares what you do, as long as you don’t embarrass the family? How does the head of your family feel about your adventuring career? Are you in your family’s good graces, or shunned by the rest of your family?\n\nDoes your family have a coat of arms? An insignia you might wear on a signet ring? Particular colors you wear all the time? An animal you regard as a symbol of your line or even a spiritual member of the family?\n\nThese details help establish your family and your title as features of the world of the campaign.\n\nA knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature (see the sidebar) instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on).\n\nAs an emblem of chivalry and the ideals of courtly love, you might include among your equipment a banner or other token from a noble lord or lady to whom you have given your heart — in a chaste sort of devotion. (This person could be your bond.)",
+        "skill proficiencies": [
+            "history",
+            "persuasion"
+        ],
+        "tool proficiencies": [
+            "one type of gaming set"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A set of fine clothes",
+            "A signet ring",
+            "A scroll of pedigree",
+            "A purse containing 25 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "Retainers",
+            "description": "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+        },
+        "characteristics": "Nobles are born and raised to a very different lifestyle than most people ever experience, and their personalities reflect that upbringing. A noble title comes with a plethora of bonds —responsibilities to family, to other nobles (including the sovereign), to the people entrusted to the family’s care, or even to the title itself. But this responsibility is often a good way to undermine a noble.",
+        "personality traits": [
+            "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.",
+            "The common folk love me for my kindness and generosity.",
+            "No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.",
+            "I take great pains to always look my best and follow the latest fashions.",
+            "I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable accommodations.",
+            "Despite my noble birth, I do not place myself above other folk. We all have the same blood.",
+            "My favor, once lost, is lost forever.",
+            "If you do me an injury, I will crush you, ruin your name, and salt your fields."
+        ],
+        "ideals": {
+            "good": [
+                "Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity.",
+                "Noble Obligation. It is my duty to protect and care for the people beneath me."
+            ],
+            "lawful": [
+                "Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine."
+            ],
+            "chaotic": [
+                "Independence. I must prove that I can handle myself without the coddling of my family."
+            ],
+            "evil": [
+                "Power. If I can attain more power, no one will tell me what to do."
+            ],
+            "any": [
+                "Family. Blood runs thicker than water."
+            ]
+        },
+        "bonds": [
+            "Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good)",
+            "Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)",
+            "Independence. I must prove that I can handle myself without the coddling of my family. (Chaotic)",
+            "Power. If I can attain more power, no one will tell me what to do. (Evil)",
+            "Family. Blood runs thicker than water. (Any)",
+            "Noble Obligation. It is my duty to protect and care for the people beneath me. (Good)"
+        ],
+        "flaws": [
+            "I will face any challenge to win the approval of my family.",
+            "My house’s alliance with another noble family must be sustained at all costs.",
+            "Nothing is more important than the other members of my family.",
+            "I am in love with the heir of a family that my family despises.",
+            "My loyalty to my sovereign is unwavering.",
+            "The common folk must see me as a hero of the people."
+        ]
+    },
+    "knight of the order": {
+        "description": "You belong to an order of knights who have sworn oaths to achieve a certain goal. The nature of this goal depends on the order you serve, but in your eyes it is without question a vital and honorable endeavor. Faerûn has a wide variety of knightly orders, all of which have a similar outlook concerning their actions and responsibilities.\n\nThough the term “knight” conjures ideas of mounted, heavily armored warriors of noble blood, most knightly orders in Faerûn don’t restrict their membership to such individuals. The goals and philosophies of the order are more important than the gear and fighting style of its members, and so most of these orders aren’t limited to fighting types, but are open to all sorts of folk who are willing to battle and die for the order’s cause.",
+        "skill proficiencies": [
+            "persuasion",
+            "arcana history nature religion"
+        ],
+        "tool proficiencies": [
+            "one type of gaming set or musical instrument"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "One set of travelers clothes",
+            "A signet, banner, or seal representing your place or rank in the order",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "Knightly Regard",
+            "description": "You receive shelter and succor from members of your knightly order and those who are sympathetic to its aims. If your order is a religious one, you can gain aid from temples and other religious communities of your deity. Knights of civic orders can get help from the community—whether a lone settlement or a great nation—that they serve, and knights of philosophical orders can find help from those they have aided in pursuit of their ideals, and those who share those ideals.\n\nThis help comes in the form of shelter and meals, and healing when appropriate, as well as occasionally risky assistance, such as a band of local citizens rallying to aid a sorely pressed knight in a fight, or those who support the order helping to smuggle a knight out of town when he or she is being hunted unjustly."
+        },
+        "characteristics": "Use the tables for the soldier background below as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a knight of your order.\n\nYour bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight’s ideal not to reflect the agenda, sentiment, or philosophy of one’s order.",
+        "personality traits": [
+            "I’m always polite and respectful.",
+            "I’m haunted by memories of war. I can’t get the images of violence out of my mind.",
+            "I’ve lost too many friends, and I’m slow to make new ones.",
+            "I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.",
+            "I can stare down a hell hound without flinching.",
+            "I enjoy being strong and like breaking things.",
+            "I have a crude sense of humor.",
+            "I face problems head-on. A simple, direct solution is the best path to success."
+        ],
+        "ideals": {
+            "good": [
+                "Greater Good. Our lot is to lay down our lives in defense of others."
+            ],
+            "lawful": [
+                "Responsibility. I do what I must and obey just authority."
+            ],
+            "chaotic": [
+                "Independence. When people follow orders blindly, they embrace a kind of tyranny."
+            ],
+            "evil": [
+                "Might. In life as in war, the stronger force wins."
+            ],
+            "neutral": [
+                "Live and Let Live. Ideals aren’t worth killing over or going to war for."
+            ],
+            "any": [
+                "Nation. My city, nation, or people are all that matter."
+            ]
+        },
+        "bonds": [
+            "I would still lay down my life for the people I served with.",
+            "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+            "My honor is my life.",
+            "I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+            "Those who fight beside me are those worth dying for.",
+            "I fight for those who cannot fight for themselves."
+        ],
+        "flaws": [
+            "The monstrous enemy we faced in battle still leaves me quivering with fear.",
+            "I have little respect for anyone who is not a proven warrior.",
+            "I made a terrible mistake in battle that cost many lives, and I would do anything to keep that mistake secret.",
+            "My hatred of my enemies is blind and unreasoning.",
+            "I obey the law, even if the law causes misery.",
+            "I’d rather eat my armor than admit when I’m wrong."
+        ]
+    },
+    "marine": {
+        "description": "You were trained for battle on sandy beaches and rocky shores. You have launched midnight raids from swift ships whose names evoke terror in the hearts of your adversaries. The water is your second home, the rain your shelter, and the crashing waves your battle cry.",
+        "skill proficiencies": [
+            "athletics",
+            "survival"
+        ],
+        "tool proficiencies": [
+            "vehicles (land, water)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A dagger that belongs to a fallen comrade",
+            "A folded flag emblazoned with the symbol of your ship or company",
+            "A set of traveler's clothes",
+            "A belt pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Hardship Endured": [
+                "Nearly Drowned. You hid underwater to avoid detection by enemies and held your breath for an extremely long time. Just before you would have died, you had a revelation about your existence.",
+                "Captured. You spent months enduring thirst, starvation, and torture at the hands of your enemy, but you never broke.",
+                "Sacrifice. You enabled the escape of your fellow soldiers, but at great cost to yourself. Some of your past comrades may think you’re dead.",
+                "Juggernaut. No reasonable explanation can explain how you survived a particular battle. Every arrow and bolt missed you. You slew scores of enemies single-handedly and led your comrades to victory.",
+                "Stowaway. For days, you hid in the bilge of an enemy ship, surviving on brackish water and foolhardy rats. At the right moment, you crept up to the deck and took over the ship on your own.",
+                "Leave None Behind. You carried an injured marine for miles to avoid capture and death."
+            ]
+        },
+        "feature": {
+            "name": "Steady",
+            "description": "ou can move twice the normal amount of time (up to 16 hours) each day before being subject to the effect of a forced march (see “Travel Pace” in chapter 8 of the Player’s Handbook). Additionally, you can automatically find a safe route to land a boat on shore, provided such a route exists."
+        },
+        "characteristics": "Marines are looked up to by other soldiers and respected by their superiors. They are veteran warriors who rarely lose composure on the battlefield. Marines who leave the service tend to work as mercenaries, but their combat experience also makes them excellent adventurers. Though they are self-reliant, marines tend to operate best in groups, valuing camaraderie and the companionship of like-minded individuals.",
+        "personality traits": [
+            "I speak rarely but mean every word I say.",
+            "I laugh loudly and see the humor in stressful situations.",
+            "I prefer to solve problems without violence, but I finish fights decisively.",
+            "I enjoy being out in nature; poor weather never sours my mood.",
+            "I am dependable.",
+            "I am always working on some project or other.",
+            "I become cantankerous and quiet in the rain.",
+            "When the sea is within my sight, my mood is jovial and optimistic."
+        ],
+        "ideals": {
+            "good": [
+                "Teamwork. Success depends on cooperation and communication."
+            ],
+            "lawful": [
+                "Code. The marines’ code provides a solution for every problem, and following it is imperative."
+            ],
+            "chaotic": [
+                "Embracing. Life is messy. Throwing yourself into the worst of it is necessary to get the job done."
+            ],
+            "evil": [
+                "Might. The strong train so that they might rule those who are weak."
+            ],
+            "any": [
+                "Bravery. To act when others quake in fear — this is the essence of the warrior.",
+                "Perseverance. No injury or obstacle can turn me from my goal."
+            ]
+        },
+        "bonds": [
+            "I face danger and evil to offset an unredeemable act in my past.",
+            "I. Will. Finish. The. Job.",
+            "I must set an example of hope for those who have given up.",
+            "I’m searching for a fellow marine captured by an elusive enemy.",
+            "Fear leads to tyranny, and both must be eradicated.",
+            "My commander betrayed my unit, and I will have revenge."
+        ],
+        "flaws": [
+            "I grow combative and unpredictable when I drink.",
+            "I find civilian life difficult and struggle to say the right thing in social situations.",
+            "My intensity can drive others away.",
+            "I hold grudges and have difficulty forgiving others.",
+            "I become irrational when innocent people are hurt.",
+            "I sometimes stay up all night listening to the ghosts of my fallen enemies."
+        ]
+    },
+    "mercenary veteran": {
+        "description": "As a sell-sword who fought battles for coin, you’re well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield. You might have served with a large outfit such as the Zhentarim or the soldiers of Mintarn, or a smaller band of sell-swords, maybe even more than one.\n\nNow you’re looking for something else, perhaps greater reward for the risks you take, or the freedom to choose your own activities. For whatever reason, you’re leaving behind the life of a soldier for hire, but your skills are undeniably suited for battle, so now you fight on in a different way.",
+        "skill proficiencies": [
+            "athletics",
+            "persuasion"
+        ],
+        "tool proficiencies": [
+            "one type of gaming set",
+            "vehicles (land)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A uniform of your company (traveler's clothes in quality)",
+            "An insignia of your rank",
+            "A gaming set of your choice",
+            "A pouch containing the remainder of your last wages (10 gp)"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "Mercenary Life",
+            "description": "You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the taverns and festhalls where mercenaries abide in any area, as long as you speak the language. You can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see “Practicing a Profession” under “Downtime Activities” in chapter 8 of the Player’s Handbook)."
+        },
+        "characteristics": "Use the tables for the soldier background below as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.\n\nYour bond could be associated with the company you traveled with previously, or with some of the comrades you served with. The ideal you embrace largely depends on your worldview and your motivation for fighting.",
+        "personality traits": [
+            "I’m always polite and respectful.",
+            "I’m haunted by memories of war. I can’t get the images of violence out of my mind.",
+            "I’ve lost too many friends, and I’m slow to make new ones.",
+            "I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.",
+            "I can stare down a hell hound without flinching.",
+            "I enjoy being strong and like breaking things.",
+            "I have a crude sense of humor.",
+            "I face problems head-on. A simple, direct solution is the best path to success."
+        ],
+        "ideals": {
+            "good": [
+                "Greater Good. Our lot is to lay down our lives in defense of others."
+            ],
+            "lawful": [
+                "Responsibility. I do what I must and obey just authority."
+            ],
+            "chaotic": [
+                "Independence. When people follow orders blindly, they embrace a kind of tyranny."
+            ],
+            "evil": [
+                "Might. In life as in war, the stronger force wins."
+            ],
+            "neutral": [
+                "Live and Let Live. Ideals aren’t worth killing over or going to war for."
+            ],
+            "any": [
+                "Nation. My city, nation, or people are all that matter."
+            ]
+        },
+        "bonds": [
+            "I would still lay down my life for the people I served with.",
+            "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+            "My honor is my life.",
+            "I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+            "Those who fight beside me are those worth dying for.",
+            "I fight for those who cannot fight for themselves."
+        ],
+        "flaws": [
+            "The monstrous enemy we faced in battle still leaves me quivering with fear.",
+            "I have little respect for anyone who is not a proven warrior.",
+            "I made a terrible mistake in battle that cost many lives, and I would do anything to keep that mistake secret.",
+            "My hatred of my enemies is blind and unreasoning.",
+            "I obey the law, even if the law causes misery.",
+            "I’d rather eat my armor than admit when I’m wrong."
+        ]
+    },
+    "noble": {
+        "description": "You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them.\n\nWork with your DM to come up with an appropriate title and determine how much authority that title carries. A noble title doesn’t stand on its own—it’s connected to an entire family, and whatever title you hold, you will pass it down to your own children. Not only do you need to determine your noble title, but you should also work with the DM to describe your family and their influence on you.\n\nIs your family old and established, or was your title only recently bestowed? How much influence do they wield, and over what area? What kind of reputation does your family have among the other aristocrats of the region? How do the common people regard them?\n\nWhat’s your position in the family? Are you the heir to the head of the family? Have you already inherited the title? How do you feel about that responsibility? Or are you so far down the line of inheritance that no one cares what you do, as long as you don’t embarrass the family? How does the head of your family feel about your adventuring career? Are you in your family’s good graces, or shunned by the rest of your family?\n\nDoes your family have a coat of arms? An insignia you might wear on a signet ring? Particular colors you wear all the time? An animal you regard as a symbol of your line or even a spiritual member of the family?\n\nThese details help establish your family and your title as features of the world of the campaign.",
+        "skill proficiencies": [
+            "history",
+            "persuasion"
+        ],
+        "tool proficiencies": [
+            "one type of gaming set"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A set of fine clothes",
+            "A signet ring",
+            "A scroll of pedigree",
+            "A purse containing 25 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "Position of Privilege",
+            "description": "Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to."
+        },
+        "characteristics": "Nobles are born and raised to a very different lifestyle than most people ever experience, and their personalities reflect that upbringing. A noble title comes with a plethora of bonds—responsibilities to family, to other nobles (including the sovereign), to the people entrusted to the family’s care, or even to the title itself. But this responsibility is often a good way to undermine a noble.",
+        "personality traits": [
+            "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.",
+            "The common folk love me for my kindness and generosity.",
+            "No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.",
+            "I take great pains to always look my best and follow the latest fashions.",
+            "I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable accommodations.",
+            "Despite my noble birth, I do not place myself above other folk. We all have the same blood.",
+            "My favor, once lost, is lost forever.",
+            "If you do me an injury, I will crush you, ruin your name, and salt your fields."
+        ],
+        "ideals": {
+            "good": [
+                "Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity.",
+                "Noble Obligation. It is my duty to protect and care for the people beneath me."
+            ],
+            "lawful": [
+                "Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine."
+            ],
+            "chaotic": [
+                "Independence. I must prove that I can handle myself without the coddling of my family."
+            ],
+            "evil": [
+                "Power. If I can attain more power, no one will tell me what to do."
+            ],
+            "any": [
+                "Family. Blood runs thicker than water."
+            ]
+        },
+        "bonds": [
+            "I will face any challenge to win the approval of my family.",
+            "My house’s alliance with another noble family must be sustained at all costs.",
+            "Nothing is more important than the other members of my family.",
+            "I am in love with the heir of a family that my family despises.",
+            "My loyalty to my sovereign is unwavering.",
+            "The common folk must see me as a hero of the people."
+        ],
+        "flaws": [
+            "I secretly believe that everyone is beneath me.",
+            "I hide a truly scandalous secret that could ruin my family forever.",
+            "I too often hear veiled insults and threats in every word addressed to me, and I’m quick to anger.",
+            "I have an insatiable desire for carnal pleasures.",
+            "In fact, the world does revolve around me.",
+            "By my words and actions, I often bring shame to my family."
+        ]
+    },
+    "outlander": {
+        "description": "You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild.",
+        "skill proficiencies": [
+            "athletics",
+            "survival"
+        ],
+        "tool proficiencies": [
+            "one type of musical instrument"
+        ],
+        "languages": [
+            "*"
+        ],
+        "equipment": [
+            "A staff",
+            "A hunting trap",
+            "A trophy from an animal you killed",
+            "A set of traveler's clothes",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Origin": [
+                "Forester",
+                "Trapper",
+                "Homesteader",
+                "Guide",
+                "Exile or outcast",
+                "Bounty hunter",
+                "Pilgrim",
+                "Tribal nomad",
+                "Hunter-gatherer",
+                "Tribal marauder"
+            ]
+        },
+        "feature": {
+            "name": "Wanderer",
+            "description": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+        },
+        "characteristics": "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.",
+        "personality traits": [
+            "I’m driven by a wanderlust that led me away from home.",
+            "I watch over my friends as if they were a litter of newborn pups.",
+            "I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I’d do it again if I had to.",
+            "I have a lesson for every situation, drawn from observing nature.",
+            "I place no stock in wealthy or well-mannered folk. Money and manners won’t save you from a hungry owlbear.",
+            "I’m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.",
+            "I feel far more comfortable around animals than people.",
+            "I was, in fact, raised by wolves."
+        ],
+        "ideals": {
+            "chaotic": [
+                "Change. Life is like the seasons, in constant change, and we must change with it."
+            ],
+            "good": [
+                "Greater Good. It is each person’s responsibility to make the most happiness for the whole tribe."
+            ],
+            "lawful": [
+                "Honor. If I dishonor myself, I dishonor my whole clan."
+            ],
+            "evil": [
+                "Might. The strongest are meant to rule."
+            ],
+            "neutral": [
+                "Nature. The natural world is more important than all the constructs of civilization."
+            ],
+            "any": [
+                "Glory. I must earn glory in battle, for myself and my clan."
+            ]
+        },
+        "bonds": [
+            "My family, clan, or tribe is the most important thing in my life, even when they are far from me.",
+            "An injury to the unspoiled wilderness of my home is an injury to me.",
+            "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
+            "I am the last of my tribe, and it is up to me to ensure their names enter legend.",
+            "I suffer awful visions of a coming disaster and will do anything to prevent it.",
+            "It is my duty to provide children to sustain my tribe."
+        ],
+        "flaws": [
+            "I am too enamored of ale, wine, and other intoxicants.",
+            "There’s no room for caution in a life lived to the fullest.",
+            "I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.",
+            "I am slow to trust members of other races, tribes, and societies.",
+            "Violence is my answer to almost any challenge.",
+            "Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish."
+        ]
+    },
+    "pirate": {
+        "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.\n\nDiscuss the nature of the ship you previously sailed with your Dungeon Master. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?\n\nWhat were your duties on board — boatswain, captain, navigator, cook, or some other position? Who were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?\n\nYou spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and lawlessness. You’ve indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you’ve garnered a somewhat unsavory reputation in many a port town.",
+        "skill proficiencies": [
+            "athletics",
+            "perception"
+        ],
+        "tool proficiencies": [
+            "navigator's tools",
+            "vehicles (water)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A belaying pin (club)",
+            "50 feet of silk rope",
+            "A lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table below)",
+            "A set of common clothes",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Sample Trinkets": [
+                "A mummified goblin hand",
+                "A piece of crystal that faintly glows in the moonlight",
+                "A gold coin minted in an unknown land",
+                "A diary written in a language you don’t know",
+                "A brass ring that never tarnishes",
+                "An old chess piece made from glass",
+                "A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips",
+                "A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it",
+                "A rope necklace from which dangles four mummified elf fingers",
+                "The deed for a parcel of land in a realm unknown to you",
+                "A 1-ounce block made from an unknown material",
+                "A small cloth doll skewered with needles",
+                "A tooth from an unknown beast",
+                "An enormous scale, perhaps from a dragon",
+                "A bright green feather",
+                "An old divination card bearing your likeness",
+                "A glass orb filled with moving smoke",
+                "A 1-pound egg with a bright red shell",
+                "A pipe that blows bubbles",
+                "A glass jar containing a weird bit of flesh floating in pickling fluid",
+                "A tiny gnome-crafted music box that plays a song you dimly remember from your childhood",
+                "A small wooden statuette of a smug halfling",
+                "A brass orb etched with strange runes",
+                "A multicolored stone disk",
+                "A tiny silver icon of a raven",
+                "A bag containing forty-seven humanoid teeth, one of which is rotten",
+                "A shard of obsidian that always feels warm to the touch",
+                "A dragon’s bony talon hanging from a plain leather necklace",
+                "A pair of old socks",
+                "A blank book whose pages refuse to hold ink, chalk, graphite, or any other substance or marking",
+                "A silver badge in the shape of a five-pointed star",
+                "A knife that belonged to a relative",
+                "A glass vial filled with nail clippings",
+                "A rectangular metal device with two tiny metal cups on one end that throws sparks when wet",
+                "A white, sequined glove sized for a human",
+                "A vest with one hundred tiny pockets",
+                "A small, weightless stone block",
+                "A tiny sketch portrait of a goblin",
+                "An empty glass vial that smells of perfume when opened",
+                "A gemstone that looks like a lump of coal when examined by anyone but you",
+                "A scrap of cloth from an old banner",
+                "A rank insignia from a lost legionnaire",
+                "A tiny silver bell without a clapper",
+                "A mechanical canary inside a gnome-crafted lamp",
+                "A tiny chest carved to look like it has numerous feet on the bottom",
+                "A dead sprite inside a clear glass bottle",
+                "A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)",
+                "A glass orb filled with water, in which swims a clockwork goldfish",
+                "A silver spoon with an M engraved on the handle",
+                "A whistle made from gold-colored wood",
+                "A dead scarab beetle the size of your hand",
+                "Two toy soldiers, one with a missing head",
+                "A small box filled with different-sized buttons",
+                "A candle that can’t be lit",
+                "A tiny cage with no door",
+                "An old key",
+                "An indecipherable treasure map",
+                "A hilt from a broken sword",
+                "A rabbit’s foot",
+                "A glass eye",
+                "A cameo carved in the likeness of a hideous person",
+                "A silver skull the size of a coin",
+                "An alabaster mask",
+                "A pyramid of sticky black incense that smells very bad",
+                "A nightcap that, when worn, gives you pleasant dreams",
+                "A single caltrop made from bone",
+                "A gold monocle frame without the lens",
+                "A 1-inch cube, each side painted a different color",
+                "A crystal knob from a door",
+                "A small packet filled with pink dust",
+                "A fragment of a beautiful song, written as musical notes on two pieces of parchment",
+                "A silver teardrop earring made from a real teardrop",
+                "The shell of an egg painted with scenes of human misery in disturbing detail",
+                "A fan that, when unfolded, shows a sleeping cat",
+                "A set of bone pipes",
+                "A four-leaf clover pressed inside a book discussing manners and etiquette",
+                "A sheet of parchment upon which is drawn a complex mechanical contraption",
+                "An ornate scabbard that fits no blade you have found so far",
+                "An invitation to a party where a murder happened",
+                "A bronze pentacle with an etching of a rat’s head in its center",
+                "A purple handkerchief embroidered with the name of a powerful archmage",
+                "Half of a floorplan for a temple, castle, or some other structure",
+                "A bit of folded cloth that, when unfolded, turns into a stylish cap",
+                "A receipt of deposit at a bank in a far-flung city",
+                "A diary with seven missing pages",
+                "An empty silver snuffbox bearing an inscription on the surface that says “dreams”",
+                "An iron holy symbol devoted to an unknown god",
+                "A book that tells the story of a legendary hero’s rise and fall, with the last chapter missing",
+                "A vial of dragon blood",
+                "An ancient arrow of elven design",
+                "A needle that never bends",
+                "An ornate brooch of dwarven design",
+                "An empty wine bottle bearing a pretty label that says, “The Wizard of Wines Winery, Red Dragon Crush, 331422-W”",
+                "A mosaic tile with a multicolored, glazed surface",
+                "A petrified mouse",
+                "A black pirate flag adorned with a dragon’s skull and crossbones",
+                "A tiny mechanical crab or spider that moves about when it’s not being observed",
+                "A glass jar containing lard with a label that reads, “Griffon Grease”",
+                "A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body",
+                "A metal urn containing the ashes of a hero"
+            ]
+        },
+        "feature": {
+            "name": "Bad Reputation",
+            "description": "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+        },
+        "characteristics": "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
+        "personality traits": [
+            "My friends know they can rely on me, no matter what.",
+            "I work hard so that I can play hard when the work is done.",
+            "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+            "I stretch the truth for the sake of a good story.",
+            "To me, a tavern brawl is a nice way to get to know a new city.",
+            "I never pass up a friendly wager.",
+            "My language is as foul as an otyugh nest.",
+            "I like a job well done, especially if I can convince someone else to do it."
+        ],
+        "ideals": {
+            "good": [
+                "Respect. The thing that keeps a ship together is mutual respect between captain and crew."
+            ],
+            "lawful": [
+                "Fairness. We all do the work, so we all share in the rewards."
+            ],
+            "chaotic": [
+                "Freedom. The sea is freedom — the freedom to go anywhere and do anything."
+            ],
+            "evil": [
+                "Mastery. I’m a predator, and the other ships on the sea are my prey."
+            ],
+            "neutral": [
+                "People. I’m committed to my crewmates, not to ideals."
+            ],
+            "any": [
+                "Aspiration. Someday I’ll own my own ship and chart my own destiny."
+            ]
+        },
+        "bonds": [
+            "I’m loyal to my captain first, everything else second.",
+            "The ship is most important — crewmates and captains come and go.",
+            "I’ll always remember my first ship.",
+            "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+            "I was cheated out of my fair share of the profits, and I want to get my due.",
+            "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+        ],
+        "flaws": [
+            "I follow orders, even if I think they’re wrong.",
+            "I’ll say anything to avoid having to do extra work.",
+            "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+            "Once I start drinking, it’s hard for me to stop.",
+            "I can’t help but pocket loose coins and other trinkets I come across.",
+            "My pride will probably lead to my destruction."
+        ]
+    },
+    "sage": {
+        "description": "You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.",
+        "skill proficiencies": [
+            "arcana",
+            "history"
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "languages": [
+            "*", "*"
+        ],
+        "equipment": [
+            "A bottle of black ink",
+            "A quill",
+            "A small knife",
+            "A letter from a dead colleague posing a question you have not yet been able to answer"
+        ],
+        "additional rolls": {
+            "Specialty": [
+                "Alchemist",
+                "Astronomer",
+                "Discredited academic",
+                "Librarian",
+                "Professor",
+                "Researcher",
+                "Wizard’s apprentice",
+                "Scribe"
+            ]
+        },
+        "feature": {
+            "name": "Researcher",
+            "description": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+        },
+        "characteristics": "Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly—sometimes in its own right, sometimes as a means toward other ideals.",
+        "personality traits": [
+            "I use polysyllabic words that convey the impression of great erudition.",
+            "I’ve read every book in the world’s greatest libraries—or I like to boast that I have.",
+            "I’m used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.",
+            "There’s nothing I like more than a good mystery.",
+            "I’m willing to listen to every side of an argument before I make my own judgment.",
+            "I … speak … slowly … when talking … to idiots, … which … almost … everyone … is … compared … to me.",
+            "I am horribly, horribly awkward in social situations.",
+            "I’m convinced that people are always trying to steal my secrets."
+        ],
+        "ideals": {
+            "neutral": [
+                "Knowledge. The path to power and self-improvement is through knowledge."
+            ],
+            "good": [
+                "Beauty. What is beautiful points us beyond itself toward what is true."
+            ],
+            "lawful": [
+                "Logic. Emotions must not cloud our logical thinking."
+            ],
+            "chaotic": [
+                "No Limits. Nothing should fetter the infinite possibility inherent in all existence. "
+            ],
+            "evil": [
+                "Power. Knowledge is the path to power and domination."
+            ],
+            "any": [
+                "Self-Improvement. The goal of a life of study is the betterment of oneself."
+            ]
+        },
+        "bonds": [
+            "It is my duty to protect my students.",
+            "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+            "I work to preserve a library, university, scriptorium, or monastery.",
+            "My life’s work is a series of tomes related to a specific field of lore.",
+            "I’ve been searching my whole life for the answer to a certain question.",
+            "I sold my soul for knowledge. I hope to do great deeds and win it back."
+        ],
+        "flaws": [
+            "I am easily distracted by the promise of information.",
+            "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+            "Unlocking an ancient mystery is worth the price of a civilization.",
+            "I overlook obvious solutions in favor of complicated ones.",
+            "I speak without really thinking through my words, invariably insulting others.",
+            "I can’t keep a secret to save my life, or anyone else’s."
+        ]
+    },
+    "sailor": {
+        "description": "You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.\n\nDiscuss the nature of the ship you previously sailed with your Dungeon Master. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?\n\nWhat were your duties on board — boatswain, captain, navigator, cook, or some other position? Who were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?",
+        "skill proficiencies": [
+            "athletics", "perception"
+        ],
+        "tool proficiencies": [
+            "navigator's tools", "vehicles (water)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A belaying pin (club)", 
+            "50 feet of silk rope", 
+            "A lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table below)",
+            "A set of common clothes",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Sample Trinkets": [
+                "A mummified goblin hand",
+                "A piece of crystal that faintly glows in the moonlight",
+                "A gold coin minted in an unknown land",
+                "A diary written in a language you don’t know",
+                "A brass ring that never tarnishes",
+                "An old chess piece made from glass",
+                "A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips",
+                "A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it",
+                "A rope necklace from which dangles four mummified elf fingers",
+                "The deed for a parcel of land in a realm unknown to you",
+                "A 1-ounce block made from an unknown material",
+                "A small cloth doll skewered with needles",
+                "A tooth from an unknown beast",
+                "An enormous scale, perhaps from a dragon",
+                "A bright green feather",
+                "An old divination card bearing your likeness",
+                "A glass orb filled with moving smoke",
+                "A 1-pound egg with a bright red shell",
+                "A pipe that blows bubbles",
+                "A glass jar containing a weird bit of flesh floating in pickling fluid",
+                "A tiny gnome-crafted music box that plays a song you dimly remember from your childhood",
+                "A small wooden statuette of a smug halfling",
+                "A brass orb etched with strange runes",
+                "A multicolored stone disk",
+                "A tiny silver icon of a raven",
+                "A bag containing forty-seven humanoid teeth, one of which is rotten",
+                "A shard of obsidian that always feels warm to the touch",
+                "A dragon’s bony talon hanging from a plain leather necklace",
+                "A pair of old socks",
+                "A blank book whose pages refuse to hold ink, chalk, graphite, or any other substance or marking",
+                "A silver badge in the shape of a five-pointed star",
+                "A knife that belonged to a relative",
+                "A glass vial filled with nail clippings",
+                "A rectangular metal device with two tiny metal cups on one end that throws sparks when wet",
+                "A white, sequined glove sized for a human",
+                "A vest with one hundred tiny pockets",
+                "A small, weightless stone block",
+                "A tiny sketch portrait of a goblin",
+                "An empty glass vial that smells of perfume when opened",
+                "A gemstone that looks like a lump of coal when examined by anyone but you",
+                "A scrap of cloth from an old banner",
+                "A rank insignia from a lost legionnaire",
+                "A tiny silver bell without a clapper",
+                "A mechanical canary inside a gnome-crafted lamp",
+                "A tiny chest carved to look like it has numerous feet on the bottom",
+                "A dead sprite inside a clear glass bottle",
+                "A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)",
+                "A glass orb filled with water, in which swims a clockwork goldfish",
+                "A silver spoon with an M engraved on the handle",
+                "A whistle made from gold-colored wood",
+                "A dead scarab beetle the size of your hand",
+                "Two toy soldiers, one with a missing head",
+                "A small box filled with different-sized buttons",
+                "A candle that can’t be lit",
+                "A tiny cage with no door",
+                "An old key",
+                "An indecipherable treasure map",
+                "A hilt from a broken sword",
+                "A rabbit’s foot",
+                "A glass eye",
+                "A cameo carved in the likeness of a hideous person",
+                "A silver skull the size of a coin",
+                "An alabaster mask",
+                "A pyramid of sticky black incense that smells very bad",
+                "A nightcap that, when worn, gives you pleasant dreams",
+                "A single caltrop made from bone",
+                "A gold monocle frame without the lens",
+                "A 1-inch cube, each side painted a different color",
+                "A crystal knob from a door",
+                "A small packet filled with pink dust",
+                "A fragment of a beautiful song, written as musical notes on two pieces of parchment",
+                "A silver teardrop earring made from a real teardrop",
+                "The shell of an egg painted with scenes of human misery in disturbing detail",
+                "A fan that, when unfolded, shows a sleeping cat",
+                "A set of bone pipes",
+                "A four-leaf clover pressed inside a book discussing manners and etiquette",
+                "A sheet of parchment upon which is drawn a complex mechanical contraption",
+                "An ornate scabbard that fits no blade you have found so far",
+                "An invitation to a party where a murder happened",
+                "A bronze pentacle with an etching of a rat’s head in its center",
+                "A purple handkerchief embroidered with the name of a powerful archmage",
+                "Half of a floorplan for a temple, castle, or some other structure",
+                "A bit of folded cloth that, when unfolded, turns into a stylish cap",
+                "A receipt of deposit at a bank in a far-flung city",
+                "A diary with seven missing pages",
+                "An empty silver snuffbox bearing an inscription on the surface that says “dreams”",
+                "An iron holy symbol devoted to an unknown god",
+                "A book that tells the story of a legendary hero’s rise and fall, with the last chapter missing",
+                "A vial of dragon blood",
+                "An ancient arrow of elven design",
+                "A needle that never bends",
+                "An ornate brooch of dwarven design",
+                "An empty wine bottle bearing a pretty label that says, “The Wizard of Wines Winery, Red Dragon Crush, 331422-W”",
+                "A mosaic tile with a multicolored, glazed surface",
+                "A petrified mouse",
+                "A black pirate flag adorned with a dragon’s skull and crossbones",
+                "A tiny mechanical crab or spider that moves about when it’s not being observed",
+                "A glass jar containing lard with a label that reads, “Griffon Grease”",
+                "A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body",
+                "A metal urn containing the ashes of a hero"
+            ]
+        },
+        "feature": {
+            "name": "Bad Reputation",
+            "description": "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+        },
+        "characteristics": "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
+        "personality traits": [
+            "My friends know they can rely on me, no matter what.",
+            "I work hard so that I can play hard when the work is done.",
+            "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+            "I stretch the truth for the sake of a good story.",
+            "To me, a tavern brawl is a nice way to get to know a new city.",
+            "I never pass up a friendly wager.",
+            "My language is as foul as an otyugh nest.",
+            "I like a job well done, especially if I can convince someone else to do it."
+        ],
+        "ideals": {
+            "good": [
+                "Respect. The thing that keeps a ship together is mutual respect between captain and crew."
+            ],
+            "lawful": [
+                "Fairness. We all do the work, so we all share in the rewards."
+            ],
+            "chaotic": [
+                "Freedom. The sea is freedom — the freedom to go anywhere and do anything."
+            ],
+            "evil": [
+                "Mastery. I’m a predator, and the other ships on the sea are my prey."
+            ],
+            "neutral": [
+                "People. I’m committed to my crewmates, not to ideals."
+            ],
+            "any": [
+                "Aspiration. Someday I’ll own my own ship and chart my own destiny."
+            ]
+        },
+        "bonds": [
+            "I’m loyal to my captain first, everything else second.",
+            "The ship is most important — crewmates and captains come and go.",
+            "I’ll always remember my first ship.",
+            "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+            "I was cheated out of my fair share of the profits, and I want to get my due.",
+            "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+        ],
+        "flaws": [
+            "I follow orders, even if I think they’re wrong.",
+            "I’ll say anything to avoid having to do extra work.",
+            "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+            "Once I start drinking, it’s hard for me to stop.",
+            "I can’t help but pocket loose coins and other trinkets I come across.",
+            "My pride will probably lead to my destruction."
+        ]
+    },
+    "Shipwright": {
+        "description": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.",
+        "skill proficiencies": [
+            "history", "perception"
+        ],
+        "tool proficiencies": [
+            "Carpenter's Tools", "vehicles (water)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A set of well-loved carpenter's tools",
+            "A blank book",
+            "1 ounce of ink",
+            "An ink pen",
+            "A set of traveler's clothes",
+            "A leather pouch with 10 gp"
+        ],
+        "additional rolls": {
+            "Life at Sea": [
+                "Grand Designs. You are working on plans and schematics for a new, very fast ship. You must examine as many different kinds of vessels as possible to help ensure the success of your design.",
+                "Solid and Sound. You patched up a war galley and prevented it from sinking. The local navy regards you as a friend.",
+                "Favored. You insisted on thicker planking for a merchant vessel’s hull, which saved it from sinking when it smashed against a reef. You have a standing invitation to visit the merchant’s distant mansion.",
+                "Master of Armaments. You specialized in designing and mounting defenses for the navy. You easily recognize and determine the quality of such items.",
+                "Low Places. You have contacts in the smuggling outfits along the coast; you occasionally repair the criminals’ ships in exchange for coin and favors.",
+                "Mysteries of the Deep. You experienced an encounter with a possibly divine being while sailing alone. Work with your DM to determine the secret about the deep waters of the sea that this entity revealed to you."
+            ]
+        },
+        "feature": {
+            "name": "I'll Patch It!",
+            "description": "Provided you have carpenter’s tools and wood, you can perform repairs on a water vehicle. When you use this ability, you restore a number of hit points to the hull of a water vehicle equal to 5 × your proficiency modifier. A vehicle cannot be patched by you in this way again until after it has been pulled ashore and fully repaired."
+        },
+        "characteristics": "Shipwrights are resourceful carpenters and designers. They often have a dedicated spot at the local tavern, since shipwrights are invaluable to coastal communities. Some travel with naval fleets and might serve as officers if their temperament suits it. Shipwrights have an affinity for working with their hands and often perform feats of carpentry that others might deem miraculous.",
+        "personality traits": [
+            "I love talking and being heard more than I like to listen.",
+            "I’m extremely fond of puzzles.",
+            "I thrive under pressure.",
+            "I love sketching and designing objects, especially boats.",
+            "I’m not afraid of hard work — in fact, I prefer it.",
+            "A pipe, an ale, and the smell of the sea: paradise.",
+            "I have an endless supply of cautionary tales related to the sea.",
+            "I don’t mind getting my hands dirty."
+        ],
+        "ideals": {
+            "good": [
+                "Crew. If everyone on deck pitches in, we’ll never sink."
+            ],
+            "lawful": [
+                "Careful Lines. A ship must be balanced according to the laws of the universe."
+            ],
+            "chaotic": [
+                "Invention. Make what you need out of whatever is at hand."
+            ],
+            "evil": [
+                "Perfection. To measure a being and find it lacking is the greatest disappointment."
+            ],
+            "any": [
+                "Reflection. Muddied water always clears in time.",
+                "Hope. The horizon at sea holds the greatest promise."
+            ]
+        },
+        "bonds": [
+            "I must visit all the oceans of the world and behold the ships that sail there.",
+            "Much of the treasure I claim will be used to enrich my community.",
+            "I must find a kind of wood rumored to possess magical qualities.",
+            "I repair broken things to redeem what’s broken in myself.",
+            "I will craft a boat capable of sailing through the most dangerous of storms.",
+            "A kraken destroyed my masterpiece; its teeth shall adorn my hearth."
+        ],
+        "flaws": [
+            "I don’t know when to throw something away. You never know when it might be useful again.",
+            "I get frustrated to the point of distraction by shoddy craftsmanship.",
+            "Though I am an excellent crafter, my work tends to look as though it belongs on a ship.",
+            "I am so obsessed with sketching my ideas for elaborate inventions that I sometimes forget little thing like eating and sleeping.",
+            "I’m judgmental of those who are not skilled with tools of some kind.",
+            "I sometimes take things that don’t belong to me, especially if they are very well made."
+        ]
+    },
+    "smuggler": {
+        "description": "On a rickety barge, you carried a hundred longswords in fish barrels right past the dock master’s oblivious lackeys. You have paddled a riverboat filled with stolen elven wine under the gaze of the moon and sold it for twice its value in the morning. In your more charitable times, you have transported innocents out of war zones or helped guide herd animals to safety on the banks of a burning river.",
+        "skill proficiencies": [
+            "athletics", "deception"
+        ],
+        "tool proficiencies": [
+            "vehicles (water)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A fancy leather vest or a pair of leather boots",
+            "A set of common clothes",
+            "A leather pouch with 15 gp"
+        ],
+        "additional rolls": {
+            "Claim to Fame": [
+                "Spirit of the Whale. You smuggled stolen dwarven spirits in the body of a dead whale being pulled behind a fishing boat. When you delivered the goods, the corpse suddenly exploded, sending whale meat and whiskey bottles for half a mile.",
+                "Cart and Sword. You drove a cart filled with stolen art through the middle of a battlefield while singing sea shanties to confuse the combatants.",
+                "The Recruit. You enlisted in another nation’s navy for the purpose of smuggling stolen jewels to a distant port. You attained a minor rank before disappearing from the navy and making your way here.",
+                "River of Shadows. Your riverboat accidentally slipped through the veil into the Shadowfell for several hours. While you were there, you sold some stolen dragonborn artifacts before returning to this plane and paddling home.",
+                "Gold-Hearted. You agreed to transport a family escaping a war. The baby began to cry at a checkpoint, and you gave the guards all your gold to let you pass. The family never found out about this gesture.",
+                "Playing Both Sides. You once smuggled crates of crossbow bolts and bundles of arrows, each destined for an opposing side in a regional war, at the same time. The buyers arrived within moments of each other but did not discover your trickery."
+            ]
+        },
+        "feature": {
+            "name": "Down Low",
+            "description": "You are acquainted with a network of smugglers who are willing to help you out of tight situations. While in a particular town, city, or other similarly sized community (DM’s discretion), you and your companions can stay for free in safe houses. Safe houses provide a poor lifestyle. While staying at a safe house, you can choose to keep your presence (and that of your companions) a secret."
+        },
+        "characteristics": "In general, smugglers value survival, and then profit, above other things. One could be a part of a larger organization, or might run a small smuggling vessel of their own. Smugglers live the lies they have told, and they have a natural ability to recall all the falsehoods and half-truths they have ever spouted.",
+        "personality traits": [
+            "I love being on the water but hate fishing.",
+            "I think of everything in terms of monetary value.",
+            "I never stop smiling.",
+            "Nothing rattles me; I have a lie for every occasion.",
+            "I love gold but won’t cheat a friend.",
+            "I enjoy doing things others believe to be impossible.",
+            "I become wistful when I see the sun rise over the ocean.",
+            "I am no common criminal; I am a mastermind."
+        ],
+        "ideals": {
+            "any": [
+                "Wealth. Heaps of coins in a secure vault is all I dream of.",
+                "People. For all my many lies, I place a high value on friendship.",
+                "Daring. I am most happy when risking everything."
+            ],
+            "lawful": [
+                "Smuggler’s Code. I uphold the unwritten rules of the smugglers, who do not cheat one another or directly harm innocents."
+            ],
+            "evil": [
+                "All for a Coin. I’ll do nearly anything if it means I turn a profit."
+            ],
+            "good": [
+                "Peace and Prosperity. I smuggle only to achieve a greater goal that benefits my community."
+            ]
+        },
+        "bonds": [
+            "My vessel was stolen from me, and I burn with the desire to recover it.",
+            "I intend to become the leader of the network of smugglers that I belong to.",
+            "I owe a debt that cannot be repaid in gold.",
+            "After one last job, I will retire from the business.",
+            "I was tricked by a fellow smuggler who stole something precious from me. I will find that thief.",
+            "I give most of my profits to a charitable cause, and I don’t like to brag about it."
+        ],
+        "flaws": [
+            "My vessel was stolen from me, and I burn with the desire to recover it.",
+            "I intend to become the leader of the network of smugglers that I belong to.",
+            "I owe a debt that cannot be repaid in gold.",
+            "After one last job, I will retire from the business.",
+            "I was tricked by a fellow smuggler who stole something precious from me. I will find that thief.",
+            "I give most of my profits to a charitable cause, and I don’t like to brag about it."
+        ]
+    },
+    "soldier": {
+        "description": "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war.\n\nWhen you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a town guard, or a village militia? Or it might have been a noble’s or merchant’s private army, or a mercenary company.",
+        "skill proficiencies": [
+            "athletics", "intimidation"
+        ],
+        "tool proficiencies": [
+            "one type of gaming set", "vehicles (land)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "An insignia of your rank",
+            "A trophy from a fallen enemy (a dagger, broken blade, or piece of banner)",
+            "A set of bone dice or deck of cards",
+            "A set of common clothes",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Specialty": [
+                "Officer",
+                "Scout",
+                "Infantry",
+                "Cavalry",
+                "Healer",
+                "Quartermaster",
+                "Standard bearer",
+                "Support staff (cook, blacksmith, or the like)"
+            ]
+        },
+        "feature": {
+            "name": "Military Rank",
+            "description": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+        },
+        "characteristics": "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.",
+        "personality traits": [
+            "I’m always polite and respectful.",
+            "I’m haunted by memories of war. I can’t get the images of violence out of my mind.",
+            "I’ve lost too many friends, and I’m slow to make new ones.",
+            "I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.",
+            "I can stare down a hell hound without flinching.",
+            "I enjoy being strong and like breaking things.",
+            "I have a crude sense of humor.",
+            "I face problems head-on. A simple, direct solution is the best path to success."
+        ],
+        "ideals": {
+            "good": [
+                "Greater Good. Our lot is to lay down our lives in defense of others."
+            ],
+            "lawful": [
+                "Responsibility. I do what I must and obey just authority."
+            ],
+            "chaotic": [
+                "Independence. When people follow orders blindly, they embrace a kind of tyranny."
+            ],
+            "evil": [
+                "Might. In life as in war, the stronger force wins."
+            ],
+            "neutral": [
+                "Live and Let Live. Ideals aren’t worth killing over or going to war for. "
+            ],
+            "any": [
+                "Nation. My city, nation, or people are all that matter."
+            ]
+        },
+        "bonds": [
+            "I would still lay down my life for the people I served with.",
+            "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+            "My honor is my life.",
+            "I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+            "Those who fight beside me are those worth dying for.",
+            "I fight for those who cannot fight for themselves."
+        ],
+        "flaws": [
+            "I would still lay down my life for the people I served with.",
+            "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+            "My honor is my life.",
+            "I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+            "Those who fight beside me are those worth dying for.",
+            "I fight for those who cannot fight for themselves."
+        ]
+    },
+    "urban bounty hunter": {
+        "description": "Before you became an adventurer, your life was already full of conflict and excitement, because you made a living tracking down people for pay. Unlike some people who collect bounties, though, you aren’t a savage who follows quarry into or through the wilderness. You’re involved in a lucrative trade, in the place where you live, that routinely tests your skills and survival instincts. What’s more, you aren’t alone, as a bounty hunter in the wild would be: you routinely interact with both the criminal subculture and other bounty hunters, maintaining contacts in both areas to help you succeed.\n\nYou might be a cunning thief-catcher, prowling the rooftops to catch one of the myriad burglars of the city. Perhaps you are someone who has your ear to the street, aware of the doings of thieves’ guilds and street gangs. You might be a “velvet mask” bounty hunter, one who blends in with high society and noble circles in order to catch the criminals that prey on the rich, whether pickpockets or con artists. The community where you plied your trade might have been one of Faerûn’s great metropolises, such as Waterdeep or Baldur’s Gate, or a less populous location, perhaps Luskan or Yartar — any place that’s large enough to have a steady supply of potential quarries.\n\nAs a member of an adventuring party, you might find it more difficult to pursue a personal agenda that doesn’t fit with the group’s objectives — but on the other hand, you can take down much more formidable targets with the help of your companions.",
+        "skill proficiencies": [
+            "deception|insight|persuasion|stealth",
+            "deception|insight|persuasion|stealth"
+        ],
+        "tool proficiencies": [
+            "Choose two from among one type of gaming set, one musical instrument, and thieves’ tools"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A set of clothes appropriate to your duties",
+            "A pouch containing 20 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "Ear to the Ground",
+            "description": "You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area."
+        },
+        "characteristics": "Use the tables for the criminal background below as the basis for your bounty hunter’s traits and motivations, modifying the entries when appropriate to suit your identity as a bounty hunter.\n\nFor instance, your bond might involve other bounty hunters or the organizations or individuals that employ you. Your ideal could be associated with your determination always to catch your quarry or your desire to maintain your reputation for being dependable.",
+        "personality traits": [
+            "I always have a plan for what to do when things go wrong.",
+            "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.",
+            "The first thing I do in a new place is note the locations of everything valuable—or where such things could be hidden.",
+            "I would rather make a new friend than a new enemy.",
+            "I am incredibly slow to trust. Those who seem the fairest often have the most to hide.",
+            "I don’t pay attention to the risks in a situation. Never tell me the odds.",
+            "The best way to get me to do something is to tell me I can’t do it.",
+            "I blow up at the slightest insult."
+        ],
+        "ideals": {
+            "lawful": [
+                "Honor. I don’t steal from others in the trade."
+            ],
+            "chaotic": [
+                "Freedom. Chains are meant to be broken, as are those who would forge them."
+            ],
+            "good": [
+                "Charity. I steal from the wealthy so that I can help people in need.",
+                "Redemption. There’s a spark of good in everyone."
+            ],
+            "evil": [
+                "Greed. I will do whatever it takes to become wealthy."
+            ],
+            "neutral": [
+                "People. I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care."
+            ]
+        },
+        "bonds": [
+            "I’m trying to pay off an old debt I owe to a generous benefactor.",
+            "My ill-gotten gains go to support my family.",
+            "Something important was taken from me, and I aim to steal it back.",
+            "I will become the greatest thief that ever lived.",
+            "I’m guilty of a terrible crime. I hope I can redeem myself for it.",
+            "Someone I loved died because of a mistake I made. That will never happen again."
+        ],
+        "flaws": [
+            "When I see something valuable, I can’t think about anything but how to steal it.",
+            "When faced with a choice between money and my friends, I usually choose the money.",
+            "If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.",
+            "I have a “tell” that reveals when I’m lying.",
+            "I turn tail and run when things look bad.",
+            "An innocent person is in prison for a crime that I committed. I’m okay with that."
+        ]
+    },
+    "urchin": {
+        "description": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You’ve survived despite all odds, and did so through cunning, strength, speed, or some combination of each.\n\nYou begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?",
+        "skill proficiencies": [
+            "slight of hand",
+            "stealth"
+        ],
+        "tool proficiencies": [
+            "disguise kit", "thieves' tools"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A small knife",
+            "A map of the city you grew up in",
+            "A pet mouse",
+            "A token to remember your parents by",
+            "A set of common clothes",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "City Secrets",
+            "description": "You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+        },
+        "characteristics": "Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life — and maybe get some payback on all the rich people who treated them badly.",
+        "personality traits": [
+            "I hide scraps of food and trinkets away in my pockets.",
+            "I ask a lot of questions.",
+            "I like to squeeze into small places where no one else can get to me.",
+            "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.",
+            "I eat like a pig and have bad manners.",
+            "I think anyone who’s nice to me is hiding evil intent.",
+            "I don’t like to bathe.",
+            "I bluntly say what other people are hinting at or hiding."
+        ],
+        "ideals": {
+            "good": [
+                "Respect. All people, rich or poor, deserve respect."                
+            ],
+            "lawful": [
+                "Community. We have to take care of each other, because no one else is going to do it."
+            ],
+            "chaotic": [
+                "Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things."
+            ],
+            "evil": [
+                "Retribution. The rich need to be shown what life and death are like in the gutters."
+            ],
+            "neutral": [
+                "People. I help the people who help me — that’s what keeps us alive."
+            ],
+            "any": [
+                "Aspiration. I’m going to prove that I’m worthy of a better life."
+            ]
+        },
+        "bonds": [
+            "My town or city is my home, and I’ll fight to defend it.",
+            "I sponsor an orphanage to keep others from enduring what I was forced to endure.",
+            "I owe my survival to another urchin who taught me to live on the streets.",
+            "I owe a debt I can never repay to the person who took pity on me.",
+            "I escaped my life of poverty by robbing an important person, and I’m wanted for it.",
+            "No one else should have to endure the hardships I’ve been through."
+        ],
+        "flaws": [
+            "If I’m outnumbered, I will run away from a fight.",
+            "Gold seems like a lot of money to me, and I’ll do just about anything for more of it.",
+            "I will never fully trust anyone other than myself.",
+            "I’d rather kill someone in their sleep than fight fair.",
+            "It’s not stealing if I need it more than someone else.",
+            "People who can’t take care of themselves get what they deserve."
+        ]
+    },
+    "astral drifter": {
+        "description": "For longer than you can remember, you have traversed the Astral Sea. There, you experienced firsthand the wonders of the Silver Void: you stopped aging and no longer felt hunger or thirst. Driven by wanderlust, you drifted from one part of the Astral Sea to another, like a mote of dust on the wind. You have lost count of the decades that have passed since you arrived here.\n\nIn your travels, you have camped on the petrified hulks of dead gods and narrowly escaped the psychic winds that sweep across the Astral Sea while also avoiding prolonged contact with the plane's most dangerous denizens. You may choose two languages of your choice, but Gith and/or Celestial are recommended.",
+        "skill proficiencies": [
+            "insight", "religion"
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "languages": [
+            "*", "*"
+        ],
+        "equipment": [
+            "A set of traveler's clothes",
+            "A diary",
+            "An ink pen",
+            "A bottle of ink",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "longevity": [
+                "You are 20d6 years older than you look, because you have spent that much time in the Astral Sea without aging."
+            ]
+        },
+        "feature": {
+            "name": "Divine Contact",
+            "description": "You gain the Magic Initiate feat from the Player's Handbook and must choose cleric for the feat.\n\nIn the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share on secret or obscure bit of cosmis lore with you. Work with your DM to determine the details of this knowledge and its impact on the campaign.\n\nWork with your DM to determine which deity you encountered."
+        },
+        "characteristics": "",
+        "personality traits": [
+            "Personality traits are unavailable for this background."
+        ],
+        "ideals": {
+            "any": [
+                "Ideals are unavailable for this background."
+            ]
+        },
+        "bonds": [
+            "Bonds are unavailable for this background."
+        ],
+        "flaws": [
+            "Flaws are unavailable for this background."
+        ]
+    },
+    "Wildspacer": {
+        "description": "You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral, or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.\n\nWhatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.\n\nYou had a harrowing encounter with one of Wildspace's many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you. Creatures marked with an asterisk appear in Boo's Astral Menagerie, the others are described in the monster manual.",
+        "skill proficiencies": [
+            "athletics",
+            "survival"
+        ],
+        "tool proficiencies": [
+            "navigator's tools",
+            "vehicles (space)"
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            "A belaying pin (club)",
+            "A set of traveler's clothes",
+            "A grappling hook",
+            "50 feet of hempen rope",
+            "A pouch containing 10 gp"
+        ],
+        "additional rolls": {
+            "Close Encounter Creature": [
+                "Beholder",
+                "Cosmic horror*",
+                "Feyr*",
+                "Lunar dragon*",
+                "Mind flayer",
+                "Neh-thalggu*",
+                "Neogi*",
+                "Space clown*",
+                "Vampirate*",
+                "Void scavver*"
+            ]
+        },
+        "feature": {
+            "name": "Wildspace Adaptation",
+            "description": "You gain the Tough feat from the Player's Handbook. In addition, you learned how to adapt to zero gravity. Being weightless doesn't give you disadvantage on any of your melee attack rolls (see \"Weightlessness\" in chapter 2 the Astral Adventurer's Guide)."
+        },
+        "characteristics": "",
+        "personality traits": [
+            "Personality traits are unavailable for this background."
+        ],
+        "ideals": {
+            "any": [
+                "Ideals are unavailable for this background."
+            ]
+        },
+        "bonds": [
+            "Bonds are unavailable for this background."
+        ],
+        "flaws": [
+            "Flaws are unavailable for this background."
         ]
     }
 }

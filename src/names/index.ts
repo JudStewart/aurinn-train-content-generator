@@ -184,7 +184,7 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
       lastName,
       formattedData: {
         name,
-        race: Utils.formatRace(race),
+        race: Utils.formatString(race),
         gender: Utils.titleCase(gender),
         firstName: firstName ? Utils.titleCase(firstName) : undefined,
         lastName: lastName ? Utils.titleCase(lastName) : undefined,

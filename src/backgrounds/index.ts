@@ -10,6 +10,48 @@ import {
 } from "../interfaces/interfaces"
 import { IPCBackground } from "../interfaces/interfaces"
 
+/** Template for backgrounds:
+"background template": {
+        "description": "",
+        "skill proficiencies": [
+            
+        ],
+        "tool proficiencies": [
+            
+        ],
+        "languages": [
+            
+        ],
+        "equipment": [
+            
+        ],
+        "additional rolls": {
+            
+        },
+        "feature": {
+            "name": "",
+            "description": ""
+        },
+        "characteristics": "",
+        "personality traits": [
+            
+        ],
+        "ideals": {
+            
+        },
+        "bonds": [
+            
+        ],
+        "flaws": [
+            
+        ]
+    },
+ */
+
+export const getBackgroundData = (name: string) => {
+    return Data[name]
+}
+
 export const random = () => {
     return Utils.pick(Object.keys(Data))
 }

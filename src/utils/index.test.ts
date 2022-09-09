@@ -297,15 +297,15 @@ describe("titleCase", () => {
 
 describe("formatRace", () => {
   test("PHB races", () => {
-    expect(Utils.formatRace("dragonborn")).toEqual("Dragonborn");
-    expect(Utils.formatRace("dwarf")).toEqual("Dwarf");
-    expect(Utils.formatRace("elf")).toEqual("Elf");
-    expect(Utils.formatRace("gnome")).toEqual("Gnome");
-    expect(Utils.formatRace("halfElf")).toEqual("Half-Elf");
-    expect(Utils.formatRace("halfOrc")).toEqual("Half-Orc");
-    expect(Utils.formatRace("halfling")).toEqual("Halfling");
-    expect(Utils.formatRace("human")).toEqual("Human");
-    expect(Utils.formatRace("tiefling")).toEqual("Tiefling");
+    expect(Utils.formatString("dragonborn")).toEqual("Dragonborn");
+    expect(Utils.formatString("dwarf")).toEqual("Dwarf");
+    expect(Utils.formatString("elf")).toEqual("Elf");
+    expect(Utils.formatString("gnome")).toEqual("Gnome");
+    expect(Utils.formatString("halfElf")).toEqual("Half-Elf");
+    expect(Utils.formatString("halfOrc")).toEqual("Half-Orc");
+    expect(Utils.formatString("halfling")).toEqual("Halfling");
+    expect(Utils.formatString("human")).toEqual("Human");
+    expect(Utils.formatString("tiefling")).toEqual("Tiefling");
   });
 });
 

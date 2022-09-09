@@ -62,7 +62,7 @@ export const generate = (props: INameGenerateProps = {}): INameDomainObject => {
             lastName: undefined,
             fromattedData: {
                 name,
-                race: race ? Utils.formatRace(race) : 'undefined',
+                race: race ? Utils.formatString(race) : 'undefined',
                 gender: gender ? Utils.titleCase(gender) : 'undefined',
                 firstName: Utils.titleCase(name),
                 lastName: undefined

@@ -65,7 +65,7 @@ const generate = (props: INPCGenerateProps = {}): INPCDomainObject => {
         firstName: nameObject.firstName,
         lastName: nameObject.lastName,
         gender: Utils.titleCase(gender),
-        race: Utils.formatRace(race),
+        race: Utils.formatString(race),
         traits,
         desires,
         relations
