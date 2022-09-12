@@ -587,7 +587,7 @@
         ]
     },
     "cloistered scholar": {
-        "description": "",
+        "description": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to one of Faerûn's great institutes of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home – not to abandon it, but to quest for new lore to add to its storehouse of knowledge.",
         "skill proficiencies": [
             "history", "arcana|nature|religion"
         ],
