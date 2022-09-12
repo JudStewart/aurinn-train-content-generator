@@ -110,6 +110,7 @@ export const parseSkillProficiencyList = (proficiency: string) => {
 }
 
 const functions = {
+    getBackgroundData,
     random,
     randomIdeal,
     randomBond,

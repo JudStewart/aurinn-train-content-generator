@@ -193,7 +193,7 @@ export const withSeed = (seed, callback) => {
 const functions = {
   pick,
   withSeed,
-  formatRace: formatString,
+  formatString,
   pickMany,
   randomRace,
   randomGender,
