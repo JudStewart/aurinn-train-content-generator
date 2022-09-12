@@ -6,7 +6,8 @@ import {
     IIdeal,
     IBond,
     IPersonalityTrait,
-    IFlaw
+    IFlaw,
+    IBackgroundData
 } from "../interfaces/interfaces"
 import { IPCBackground } from "../interfaces/interfaces"
 
@@ -48,8 +49,8 @@ import { IPCBackground } from "../interfaces/interfaces"
     },
  */
 
-export const getBackgroundData = (name: string) => {
-    return Data[name]
+export const getBackgroundData = (name: string): IBackgroundData => {
+    return Data[name] as IBackgroundData
 }
 
 export const random = () => {
