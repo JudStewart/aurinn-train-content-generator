@@ -3017,7 +3017,7 @@
             "My pride will probably lead to my destruction."
         ]
     },
-    "Shipwright": {
+    "shipwright": {
         "description": "You have sailed into war on the decks of great ships, patching their hulls with soup bowls and prayers. You once helped build a fishing vessel that single-handedly saved a town from starvation. You have seen a majestic prow in your dreams that you have not been able to replicate in wood. Since childhood, you have loved the water and have been captivated by the many vessels that travel on it.",
         "skill proficiencies": [
             "history", "perception"
@@ -3439,7 +3439,7 @@
             "Flaws are unavailable for this background."
         ]
     },
-    "Wildspacer": {
+    "wildspacer": {
         "description": "You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral, or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and offloading cargo, and scraping barnacles off the hull.\n\nWhatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.\n\nYou had a harrowing encounter with one of Wildspace's many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you. Creatures marked with an asterisk appear in Boo's Astral Menagerie, the others are described in the monster manual.",
         "skill proficiencies": [
             "athletics",

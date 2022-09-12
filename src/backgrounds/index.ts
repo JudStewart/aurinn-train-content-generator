@@ -105,12 +105,17 @@ export const randomPersonalityTrait = (background: IPCBackground, seed: ISeed = 
     })
 }
 
+export const parseSkillProficiencyList = (proficiency: string) => {
+    proficiency.split("|")
+}
+
 const functions = {
     random,
     randomIdeal,
     randomBond,
     randomFlaw,
-    randomPersonalityTrait
+    randomPersonalityTrait,
+    parseSkillProficiencyList
 };
 
 export default functions;
