@@ -70,8 +70,18 @@
             "stonecutting": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
             "languages": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
         },
-        "height roll": " ",
-        "weight roll": ""
+        "height roll": "44 + 2d4",
+        "weight roll": "115 * 2d6",
+        "variant": {
+            "name": "Mountain Dwarf",
+            "description": "As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You're probably on the tall side (for a dwarf), and tend toward lighter coloration.",
+            "racial traits": {
+                "ability score increase": "Your Strength score increases by 2.",
+                "dwarven armor training": "You have proficiency with light and medium armor."
+            },
+            "height roll": "48 + 2d4",
+            "weight roll": "130 * 2d6"
+        }
     },
     "template": {
         "blurb": "blurb paragraph",
@@ -90,6 +100,9 @@
             "speed": ""
         },
         "height roll": "",
-        "weight roll": ""
+        "weight roll": "",
+        "variant": {
+            "name": ""
+        }
     },
 }
