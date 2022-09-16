@@ -53,6 +53,10 @@ export const getBackgroundData = (name: string): IBackgroundData => {
     return Data[name] as IBackgroundData
 }
 
+export const getAllBackgrounds = () => {
+    return Data
+}
+
 export const random = () => {
     return Utils.pick(Object.keys(Data))
 }
@@ -112,6 +116,7 @@ export const parseSkillProficiencyList = (proficiency: string) => {
 
 const functions = {
     getBackgroundData,
+    getAllBackgrounds,
     random,
     randomIdeal,
     randomBond,
