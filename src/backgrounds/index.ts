@@ -13,6 +13,7 @@ import { IPCBackground } from "../interfaces/interfaces"
 
 /** Template for backgrounds:
 "background template": {
+        "name": "",
         "description": "",
         "skill proficiencies": [
             
